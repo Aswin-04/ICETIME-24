@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import { navItems } from "../constants";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [activeLink, setActiveLink] = useState("home");
@@ -16,31 +17,7 @@ const Navbar = () => {
     setActiveLink(label)
   }
 
-  const navItems = [
-    { label: "Home", href: "#" },
-    {
-      label: "Committee",
-      dropdown: true,
-      items: [
-        { label: "Advisory Committee", href: "#" },
-        { label: "Organizing Committee", href: "#" },
-        { label: "Technical Committee", href: "#" },
-      ],
-    },
-    { label: "Speakers", href: "#" },
-    {
-      label: "For Authors",
-      dropdown: true,
-      items: [
-        { label: "Call for Papers", href: "#" },
-        { label: "Important Dates", href: "#" },
-        { label: "Review Process", href: "#" },
-      ],
-    },
-    { label: "Program Schedule", href: "#" },
-    { label: "Contact", href: "#" },
-    { label: "Registration", href: "#" },
-  ];
+
 
   return (
     <nav className="bg-bgd border border-gray-200">
@@ -58,11 +35,11 @@ const Navbar = () => {
               onClick={() => handleLinkClick(item.label.toLocaleLowerCase())}
             >
               {!item.dropdown ? (
-                <a href={item.href}>
+                <Link to={item.href}>
                   {item.label}
                   <span className={`${activeLink === item.label.toLowerCase() ? "scale-x-100" :"scale-x-0"} absolute h-1 origin-left -left-2 -right-2 -bottom-2 bg-accent-600 rounded group-hover:scale-x-100 transition-transform duration-300 ease-out`}></span>
                   {/* <span className={`scale-x-0 absolute h-1 origin-left -left-2 -right-2 -bottom-2 bg-indigo-300 rounded group-hover:scale-x-100 transition-transform duration-300 ease-out`}></span> */}
-                </a>
+                </Link>
               ) : (
                 <a>
                   <button className="flex items-center">
@@ -92,12 +69,12 @@ const Navbar = () => {
                   <ul className="py-2 text-sm text-gray-700">
                     {item.items.map((dropdownItem, idx) => (
                       <li key={idx}>
-                        <a
-                          href={dropdownItem.href}
+                        <Link
+                          to={dropdownItem.href}
                           className="block px-4 py-2 hover:bg-gray-100"
                         >
                           {dropdownItem.label}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>
