@@ -122,7 +122,7 @@ const Navbar = () => {
 
                   {/* Dropdown items */}
                   {item.dropdown && activeDropdown === item.label.toLowerCase() && (
-                    <div className="mt-2 w-48 bg-bgd divide-y divide-gray-100 rounded-lg shadow">
+                    <div className="mt-2 w-48 bg-slate-100 divide-y divide-gray-100 rounded-lg shadow">
                       <ul className="py-2 text-sm text-gray-700">
                         {item.items.map((dropdownItem, idx) => (
                           <li key={idx}>
