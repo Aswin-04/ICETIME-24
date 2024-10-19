@@ -30,6 +30,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
+    if (isMenuOpen) setActiveDropdown(null); // Reset dropdown when closing the menu
   };
 
   const handleDropdownToggle = (label) => {
@@ -121,7 +122,7 @@ const Navbar = () => {
                   </button>
 
                   {/* Dropdown items */}
-                  {item.dropdown && activeDropdown === item.label.toLowerCase() && (
+                  {item.dropdown && activeDropdown === item.label.toLowerCase()  && (
                     <div className="mt-2 w-48 bg-slate-100 divide-y divide-gray-100 rounded-lg shadow">
                       <ul className="py-2 text-sm text-gray-700">
                         {item.items.map((dropdownItem, idx) => (
