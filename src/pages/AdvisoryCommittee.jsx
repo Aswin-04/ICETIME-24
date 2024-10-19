@@ -1,9 +1,12 @@
-
+import Navbar from "../components/Navbar"
 const AdvisoryCommittee = () => {
   return (
-    <div>
+    <>
+    <Navbar/>
+    <section>
       
-    </div>
+    </section>
+  </>
   )
 }
 
