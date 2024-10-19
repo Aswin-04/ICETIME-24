@@ -40,11 +40,13 @@ const Navbar = () => {
     <nav className="relative bg-bgd border border-gray-200">
       {/* Mobile Screen */}
       <div className="lg:hidden py-6 px-4 flex justify-between items-center">
-        <div className="text-2xl font-bold tracking-tight">ICETIME&apos;24</div>
+        <div className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">ICETIME&apos;24</div>
         <button
           onClick={toggleMenu}
           type="button"
-          className="inline-flex items-center p-1 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 border"
+          className={`inline-flex items-center p-1 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 border transition-transform duration-600 ${
+            isMenuOpen ? "rotate-90" : "rotate-0"
+          }`}
           aria-controls="navbar-dropdown"
           aria-expanded={isMenuOpen}
         >
@@ -83,14 +85,16 @@ const Navbar = () => {
           )}
         </button>
 
-        {isMenuOpen && (
-          <div className="bg-slate-200 absolute left-0 top-0 mt-[89px] border min-h-screen w-full">
-            <ul className="p-10 flex flex-col gap-8">
+
+          <div  className={`${
+            isMenuOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-600 bg-slate-100 absolute right-0 top-0 mt-[89px] border min-h-screen w-full`}>
+            <ul className="p-10 flex flex-col gap-8 font-medium">
               {navItems.map((item, index) => (
                 <li key={index} className="relative">
                   <button
                     className={`${
-                      activeLink === item.label.toLowerCase() ? "text-primary" : ""
+                      activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
                     } `}
                     onClick={() => {
                       if (item.dropdown) {
@@ -104,10 +108,10 @@ const Navbar = () => {
                       {item.label}
                       {item.dropdown && (
                         <svg
-                          className="ml-1 mt-[2px] size-5"
+                          className={`${activeLink === item.label ? "text-cyan-500" : "text-inherit"} ml-1 mt-[2px] size-5`}
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
-                          fill="#0a0f11"
+                          fill="currentColor"
                         >
                           <title>chevron-down</title>
                           <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
@@ -140,13 +144,13 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-        )}
+
       </div>
 
       {/* Large Screen */}
       <div className="max-lg:hidden mx-auto max-w-screen-wide p-6 flex justify-between">
-        <div className="text-2xl font-bold tracking-tight">ICETIME&apos;24</div>
-        <ul className="flex items-center gap-8">
+      <div className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">ICETIME&apos;24</div>
+        <ul className="flex items-center gap-8 font-medium">
           {navItems.map((item, index) => (
             <li
               key={index}
@@ -160,7 +164,7 @@ const Navbar = () => {
               {!item.dropdown ? (
                 <button
                   className={`${
-                    activeLink === item.label.toLowerCase() ? "text-primary" : ""
+                    activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
                   }`}
                 >
                   <Link to={item.href}>
@@ -174,14 +178,14 @@ const Navbar = () => {
                 <button className="group">
                   <div
                     className={`${
-                      activeLink === item.label.toLowerCase() ? "text-primary" : ""
+                      activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
                     } flex items-center`}
                   >
                     {item.label}
                     <svg
                       className={`ml-1 mt-[2px] size-5 ${
                         activeLink === item.label.toLowerCase()
-                          ? "text-primary"
+                          ? "text-cyan-500"
                           : "text-inherit"
                       }`}
                       xmlns="http://www.w3.org/2000/svg"
