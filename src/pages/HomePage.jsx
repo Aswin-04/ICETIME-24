@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import { mainPoster } from "../assets/images";
+import MainPoster from '../components/MainPoster'
 
 import { aboutDetails } from "../constants";
 import AboutDetailsRenderer from "../components/AboutDetailsRenderer";
@@ -11,9 +11,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <main className="">
-        <section className="">
-          <img className="" src={mainPoster} alt="" />
-        </section>
+        <MainPoster/>
 
         {aboutDetails.map((details) => (
           <div className="bg-gray-100 mt-10 lg:mt-20" key={details.id}>
