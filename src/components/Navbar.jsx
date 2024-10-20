@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-bgd border border-gray-200">
+    <nav className="sticky top-0 left-0 w-full bg-bgd border border-gray-200">
       {/* Mobile Screen */}
       <div className="lg:hidden py-6 px-4 flex justify-between items-center">
         <div className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">ICETIME&apos;24</div>

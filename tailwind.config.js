@@ -88,10 +88,14 @@ export default {
        },
 
       screens: {
+        "xxs": "375px",
+        "xs": "425px",
         'wide': '1440px'
       }
        
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

@@ -50,3 +50,11 @@ body {
     @apply sm:pb-24 pb-12;
   }
 }
+
+.h1 {
+  font-size: clamp(20px, 4vw, 35px);
+}
+
+.prose p {
+  @apply text-justify
+}
