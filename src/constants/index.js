@@ -210,3 +210,80 @@ export const nationalAdvisoryCommittee = [
   { "name": "Prof. Dr. P.K. Prasad", "designation": "Principal, Bengal College of Engineering & Technology, Durgapur, West Bengal" },
   { "name": "Dr. Pradeep Jaevandhiya", "designation": "Principal, Pankaj Laddhad Institute of Technology and Management Studies, Buldana" }
 ]
+
+
+export const organizingCommittee = [
+  {
+    "category": "PATRON",
+    "members": [
+      {
+        "name": "Dr. Sai Prakash Leo Muthu",
+        "designation": "Chairman & CEO"
+      },
+      {
+        "name": "Dr. J. Raja",
+        "designation": "Principal"
+      }
+    ]
+  },
+  {
+    "category": "CHAIR",
+    "members": [
+      {
+        "name": "Dr. A Rajendra Prasad",
+        "designation": "Dean - Student Affairs"
+      }
+    ]
+  },
+  {
+    "category": "CONVENOR",
+    "members": [
+      {
+        "name": "Dr. B. Vijaya Ramnath",
+        "designation": "Professor & Head"
+      }
+    ]
+  },
+  {
+    "category": "CO-CONVENOR",
+    "members": [
+      {
+        "name": "Dr. V. Ravi Raj",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Dr. R. Bhoopathi",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Dr. C. Parswajinan",
+        "designation": "Associate Professor"
+      }
+    ]
+  },
+  {
+    "category": "ORGANIZING SECRETARY",
+    "members": [
+      {
+        "name": "Mr. S. Krishnaraj",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Mr. R. Senthil Kumar",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Mr. A. Ravinthiran",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Mr. L. Ravikumar",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Mr. M. Sudhakar",
+        "designation": "Assistant Professor"
+      }
+    ]
+  }
+]
