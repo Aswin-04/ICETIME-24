@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="bg-slate-200 font-sans">
       <div className=" padding-x py-12 sm:pt-24 max-container flex flex-col gap-16 lg:flex-row lg:justify-between lg:gap-0 wide:justify-around">
-        <div className="w-44 shadow bg-white rounded flex h-16">
+        <div className="w-40 shadow bg-white rounded flex h-16">
           <img src={sairamIcon} alt="sairamIcon" className="object-contain" />
         </div>
 
