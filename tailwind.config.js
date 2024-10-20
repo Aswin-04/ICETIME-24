@@ -10,8 +10,11 @@ export default {
     extend: {
 
       fontFamily: {
-        sans : ["var(--font-open-sans)", ...fontFamily.sans],
-        inter: ["var(--font-inter)", ...fontFamily.sans]
+        openSans : ["var(--font-open-sans)", ...fontFamily.sans],
+        inter: ["var(--font-inter)", ...fontFamily.sans],
+        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ["var(--font-sora)", ...fontFamily.sans],
+
       },
 
       colors: {

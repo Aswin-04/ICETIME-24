@@ -160,7 +160,10 @@ const Navbar = () => {
                 item.dropdown ? handleMouseEnter(item.label.toLowerCase()) : null
               }
               onMouseLeave={handleMouseLeave}
-              onClick={() => handleLinkClick(item.label.toLowerCase())}
+              onClick={() => {
+                if(item.label === 'Committee' || item.label === 'For Authors') return
+                handleLinkClick(item.label.toLowerCase())
+              } }
             >
               {!item.dropdown ? (
                 <button
