@@ -210,7 +210,7 @@ const Navbar = () => {
               {item.dropdown && activeDropdown === item.label.toLowerCase() && (
                 <div
                   id="dropdownNavbar"
-                  className="absolute top-14 z-10 bg-bgd divide-y divide-gray-100 rounded-lg shadow w-48"
+                  className="absolute top-14 z-50 bg-bgd divide-y divide-gray-100 rounded-lg shadow w-48"
                   onClick={() => handleLinkClick(item.label.toLowerCase())}
                 >
                   <ul className="py-2 text-sm text-gray-700">
