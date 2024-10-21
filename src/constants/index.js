@@ -1,4 +1,10 @@
 import { clgImg, departmentImg } from "../assets/images";
+import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import DescriptionIcon from '@mui/icons-material/Description';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -287,3 +293,41 @@ export const organizingCommittee = [
     ]
   }
 ]
+
+export const importantDates = [
+  {
+    deadline: "Last Date to Submit Abstract",
+    date: "20th November 2024",
+    icon: DriveFolderUploadIcon 
+  },
+  {
+    deadline: "Abstract Selection Intimation",
+    date: "25th November 2024",
+    icon: CheckCircleOutlineIcon 
+  },
+  {
+    deadline: "Last Date to Submit Full Paper",
+    date: "15th December 2024",
+    icon: DescriptionIcon 
+  },
+  {
+    deadline: "Full Paper Selection Intimation",
+    date: "25th December 2024",
+    icon: CheckCircleOutlineIcon 
+  },
+  {
+    deadline: "Payment Last Date",
+    date: "28th December 2024",
+    icon: CreditCardIcon 
+  },
+  {
+    deadline: "Registration Commences",
+    date: "28th December 2024",
+    icon: EventAvailableIcon 
+  },
+  {
+    deadline: "Registration Ends",
+    date: "12th January 2025",
+    icon: AccessTimeIcon
+  }
+];

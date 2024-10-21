@@ -18,6 +18,7 @@ export default {
       },
 
       colors: {
+        'light-blue': 'rgb(241, 246, 254)',
         'tx': {
           DEFAULT: '#0a0f11',
           50: '#090e10',
