@@ -331,3 +331,74 @@ export const importantDates = [
     icon: AccessTimeIcon
   }
 ];
+
+
+export const conferenceTracks = `
+### ADVANCEMENT IN MECHANICAL ENGINEERING
+- Cyber-Physical Systems in Mechanical Engineering
+- Advanced Control Strategies for Mechanical Systems
+- Aerospace Engineering and Innovations
+- Digital Twin Technologies in Mechanical Engineering
+- Human-Centered Design and Engineering
+- Wearable Technologies and Human Augmentation
+- Artificial Intelligence and Machine Learning in Mechanical Engineering
+- Sustainable Transportation Systems and Infrastructure
+- Industrial IoT and Smart Manufacturing
+- Innovations in HVAC Systems and Indoor Air Quality
+- Marine Engineering and Naval Architecture Innovations
+- Resilient Infrastructure and Disaster Mitigation
+- Sustainable Agriculture and Farming Technologies
+- Advances in Composite Materials and Structures
+- Cybersecurity Challenges in Mechanical Systems
+- Smart Sensors and Sensor Networks in Mechanical Systems
+- Advances in Sustainable Construction and Building Technologies
+- Innovations in Sustainable Packaging and Logistics
+- Human-Robot Collaboration in Industrial Settings
+- Advances in Bio-inspired Robotics and Biomimetics
+- Digital Transformation in Mechanical Engineering Education
+- Innovations in Disaster Response and Recovery Technologies
+- Advances in Microfluidics and Nanofluidics
+- Innovations in Heat Exchangers and Heat Transfer Systems
+- Cyber-Physical Manufacturing Systems and Industry 4.0
+- Innovations in Energy Harvesting and Energy Conversion
+- Sustainable Mining and Resource Extraction Technologies
+- Advances in Tribology and Surface Engineering
+- Innovations in Space Exploration and Aerospace Technologies
+
+### MATERIALS & MANUFACTURING
+- Sustainable Manufacturing and Design Innovations
+- Advanced Materials and Manufacturing Processes
+- Smart Mechanical Engineering Systems
+- Additive Manufacturing and 3D Printing Technologies
+- Nanotechnology Applications in Mechanical Engineering
+- Materials Engineering for Extreme Environments
+- Advances in Non-Destructive Testing Techniques
+- Smart Cities and Infrastructure Development
+- Innovations in Agricultural Machinery and Equipment
+- Advances in Microelectromechanical Systems (MEMS)
+
+### DESIGN & AUTOMATION
+- Robotics and Automation in Mechanical Engineering
+- Innovative Approaches to Vehicle Dynamics
+- Advances in Fluid Mechanics and Aerodynamics
+- Emerging Trends in Robotics and Mechatronics
+
+### ENERGY AND ENVIRONMENT
+- Wind and Water Turbine
+- Solar Energy Power Generation
+- Energy Efficiency and Renewable Energy Technologies
+- Green Technologies and Environmental Sustainability
+- Sustainable Energy Systems and Power Generation
+- Renewable Energy Integration and Grid Management
+- Sustainable Urban Development and Transportation
+- Sustainable Water Management and Treatment Technologies
+- Innovations in Renewable Energy Storage Systems
+- Sustainable Waste Management and Recycling Solutions
+
+### THERMAL SCIENCES
+- Computational Mechanics and Simulation Techniques
+- Innovations in Thermal Management Systems
+- Biologically Inspired Engineering Solutions
+- Computational Intelligence in Mechanical Engineering
+- Innovations in Thermal Energy Storage Systems
+`;
