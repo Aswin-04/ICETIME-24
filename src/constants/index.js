@@ -27,6 +27,7 @@ export const navItems = [
     items: [
       { label: "Call for Papers", href: "/for-authors/call-for-papers" },
       { label: "Important Dates", href: "/for-authors/important-dates" },
+      { label: "Instructions to Authors", href: "/for-authors/instructions-to-authors" },
       { label: "Review Process", href: "/for-authors/review-process" },
     ],
   },

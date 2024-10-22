@@ -6,6 +6,7 @@ import  {
   Contact,
   HomePage,
   ImportantDates,
+  InstructionsToAuthors,
   OrganizingCommittee,
   ProgramSchedule,
   Registration,
@@ -38,6 +39,10 @@ const routes = [
   {
     path: "/for-authors/important-dates",
     element: <ImportantDates />,
+  },
+  {
+    path: "/for-authors/instructions-to-authors",
+    element: <InstructionsToAuthors />,
   },
   {
     path: "/for-authors/review-process",
