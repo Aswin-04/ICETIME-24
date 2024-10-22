@@ -20,13 +20,13 @@ const ProgramSchedule = () => {
         {conferenceAgenda1.map((item, index) => (
           <div
             key={index}
-            className="bg-sky-100/70 shadow p-8 relative flex flex-col items-center justify-center text-center gap-2 mb-8 min-h-[30px]" // Set min height here
+            className="bg-indigo-50 shadow-lg p-8 relative flex flex-col items-center justify-center text-center gap-2 mb-8 min-h-[30px]" // Set min height here
           >
             <h4 className="font-bold text-xl max-xs:text-lg">
               {item.timing}
             </h4>
 
-            <p className="text-lg max-xs:text-base">{item.program}</p>
+            <p className="text-lg font-medium max-xs:text-base">{item.program}</p>
           </div>
         ))}
       </section>
@@ -37,13 +37,13 @@ const ProgramSchedule = () => {
         {conferenceAgenda2.map((item, index) => (
           <div
             key={index}
-            className="bg-sky-100/70 shadow p-8 relative flex flex-col items-center justify-center text-center gap-2 mb-8 min-h-[30px]" // Set min height here
+            className="bg-sky-100/70 shadow-lg p-8 relative flex flex-col items-center justify-center text-center gap-2 mb-8 min-h-[30px]" // Set min height here
           >
             <h4 className="font-bold text-xl max-xs:text-lg">
               {item.timing}
             </h4>
 
-            <p className="text-lg max-xs:text-base">{item.program}</p>
+            <p className="text-lg font-medium max-xs:text-base">{item.program}</p>
           </div>
         ))}
       </section>
