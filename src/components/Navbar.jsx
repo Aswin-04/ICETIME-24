@@ -11,7 +11,7 @@ const Navbar = () => {
 
   // Update the active link based on the current URL path
   useEffect(() => {
-    const currentPath = location.pathname.split("/")[1];
+    const currentPath = location.pathname.split("/")[1].replace(/\s+/g, "-"); // Replace spaces with dashes
     setActiveLink(currentPath ? currentPath.toLowerCase() : "home");
   }, [location]);
 
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <li key={index} className="relative">
                   <button
                     className={`${
-                      activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
+                      activeLink === item.label.toLowerCase().replace(/\s+/g, "-") ? "text-cyan-500" : ""
                     } `}
                     onClick={() => {
                       if (item.dropdown) {
@@ -168,7 +168,7 @@ const Navbar = () => {
               {!item.dropdown ? (
                 <button
                   className={`${
-                    activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
+                    activeLink === item.label.toLowerCase().replace(/\s+/g, "-") ? "text-cyan-500" : ""
                   }`}
                 >
                   <Link to={item.href}>
@@ -182,13 +182,13 @@ const Navbar = () => {
                 <button className="group">
                   <div
                     className={`${
-                      activeLink === item.label.toLowerCase() ? "text-cyan-500" : ""
+                      activeLink === item.label.toLowerCase().replace(/\s+/g, "-") ? "text-cyan-500" : ""
                     } flex items-center`}
                   >
                     {item.label}
                     <svg
                       className={`ml-1 mt-[2px] size-5 ${
-                        activeLink === item.label.toLowerCase()
+                        activeLink === item.label.toLowerCase().replace(/\s+/g, "-")
                           ? "text-cyan-500"
                           : "text-inherit"
                       }`}
@@ -219,6 +219,7 @@ const Navbar = () => {
                         <Link
                           to={dropdownItem.href}
                           className="block px-4 py-2 hover:bg-gray-100"
+                          onClick={() => handleLinkClick(item.label.toLowerCase())}
                         >
                           {dropdownItem.label}
                         </Link>
