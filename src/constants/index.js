@@ -17,7 +17,7 @@ export const navItems = [
         label: "Organizing Committee",
         href: "/committee/organizing-committee",
       },
-      { label: "Technical Committee", href: "/committee/technical-committee" },
+      // { label: "Technical Committee", href: "/committee/technical-committee" },
     ],
   },
   { label: "Speakers", href: "/speakers" },
