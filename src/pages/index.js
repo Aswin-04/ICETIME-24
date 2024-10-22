@@ -9,6 +9,7 @@ import Registration from "./Registration";
 import ReviewProcess from "./ReviewProcess";
 import Speakers from "./Speakers";
 import TechnicalCommittee from "./TechnicalCommittee";
+import InstructionsToAuthors from "./InstructionsToAuthors"
 
 export {
   AdvisoryCommittee,
@@ -16,6 +17,7 @@ export {
   Contact,
   HomePage,
   ImportantDates,
+  InstructionsToAuthors,
   OrganizingCommittee,
   ProgramSchedule,
   Registration,
