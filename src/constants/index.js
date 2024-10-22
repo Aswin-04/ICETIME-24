@@ -426,3 +426,51 @@ export const instructionsToAuthors = `
 After a careful refereeing process, following the journal norms, selected papers will be recommended for publication in **Scopus-indexed journals**.  
 (Journal names will be updated soon).
 `;
+
+export const conferenceAgenda1 = [
+  {
+    timing: "09:00 AM",
+    program: "Address & Registration / Welcome"
+  },
+  {
+    timing: "10:00 AM",
+    program: "Keynote Speech"
+  },
+  {
+    timing: "11:00 AM",
+    program: "Panel Discussions"
+  },
+  {
+    timing: "01:00 PM",
+    program: "Lunch"
+  },
+  {
+    timing: "02:00 PM",
+    program: "Technical Sessions"
+  }
+];
+
+export const conferenceAgenda2 = [
+  {
+    timing: "09:00 AM",
+    program: "Special Address"
+  },
+  {
+    timing: "10:00 AM",
+    program: "Keynote Speech"
+  },
+  {
+    timing: "11:00 AM",
+    program: "Panel Discussions"
+  },
+  {
+    timing: "01:00 PM",
+    program: "Lunch"
+  },
+  {
+    timing: "02:00 PM",
+    program: "Technical Sessions"
+  }
+];
+
+
