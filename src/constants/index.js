@@ -221,12 +221,18 @@ export const nationalAdvisoryCommittee = [
 
 export const organizingCommittee = [
   {
-    "category": "PATRON",
+    "category": "CHIEF-PATRON",
     "members": [
       {
         "name": "Dr. Sai Prakash Leo Muthu",
         "designation": "Chairman & CEO"
       },
+
+    ]
+  },
+  {
+    "category": "PATRON",
+    "members": [
       {
         "name": "Dr. J. Raja",
         "designation": "Principal"

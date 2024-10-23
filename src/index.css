@@ -74,4 +74,38 @@ body {
   border-radius: 1.5rem 1.5rem 0 0;
 }
 
+.committee-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px;
+  @apply bg-accent/70;
+  border-radius: 0.25rem 0 0 0.25rem;
+  
+}
+
+.schedule-card-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  @apply bg-indigo-500;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.schedule-card-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  @apply bg-sky-500;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
 
