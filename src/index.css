@@ -62,4 +62,16 @@ body {
   @apply text-justify
 }
 
+.profile-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35%;
+  width: 100%;
+  @apply bg-accent/80;
+  z-index: -1;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
 
