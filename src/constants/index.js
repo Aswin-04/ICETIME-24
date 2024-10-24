@@ -5,7 +5,22 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import rpImg from '../assets/images/speakers/RP.jpeg'
+
+import {
+  bhoopathiImg,
+  hodImg,
+  krishnarajImg,
+  parswajinanImg,
+  ravikumarImg,
+  ravindranImg,
+  ravirajImg,
+  senthilkumarImg,
+  sudhakarImg,
+  ceoImg,
+  principalImg,
+  rpImg,
+
+} from '../assets/images/'
 
 import {
   subramanianImg,
@@ -313,7 +328,7 @@ export const nationalAdvisoryCommittee = [
 
 export const chiefPatronProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: ceoImg,  // Replace with actual image path
     imgAlt: "saiPrakashSirImg",
     name: "Dr. Sai Prakash Leo Muthu",
     designation: "Chairman & CEO",
@@ -325,7 +340,7 @@ export const chiefPatronProfiles = [
 
 export const patronProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: principalImg,  // Replace with actual image path
     imgAlt: "rajaSirImg",
     name: "Dr. J. Raja",
     designation: "Principal",
@@ -349,7 +364,7 @@ export const chairProfiles = [
 
 export const convenorProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: hodImg,  // Replace with actual image path
     imgAlt: "vijayaRamnathSirImg",
     name: "Dr. B. Vijaya Ramnath",
     designation: "Professor & Head",
@@ -361,7 +376,7 @@ export const convenorProfiles = [
 
 export const coConvenorProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: ravirajImg,  // Replace with actual image path
     imgAlt: "raviRajSirImg",
     name: "Dr. V. Ravi Raj",
     designation: "Associate Professor",
@@ -370,7 +385,7 @@ export const coConvenorProfiles = [
     linkedIn: "https://www.linkedin.com/in/v-ravi-raj/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: bhoopathiImg,  // Replace with actual image path
     imgAlt: "bhoopathiSirImg",
     name: "Dr. R. Bhoopathi",
     designation: "Associate Professor",
@@ -379,7 +394,7 @@ export const coConvenorProfiles = [
     linkedIn: "https://www.linkedin.com/in/r-bhoopathi/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: parswajinanImg,  // Replace with actual image path
     imgAlt: "parswajinanSirImg",
     name: "Dr. C. Parswajinan",
     designation: "Associate Professor",
@@ -391,7 +406,7 @@ export const coConvenorProfiles = [
 
 export const organizingSecretaryProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: krishnarajImg,  // Replace with actual image path
     imgAlt: "krishnarajSirImg",
     name: "Mr. S. Krishnaraj",
     designation: "Associate Professor",
@@ -400,7 +415,7 @@ export const organizingSecretaryProfiles = [
     linkedIn: "https://www.linkedin.com/in/s-krishnaraj/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: senthilkumarImg,  // Replace with actual image path
     imgAlt: "senthilKumarSirImg",
     name: "Mr. R. Senthil Kumar",
     designation: "Associate Professor",
@@ -409,7 +424,7 @@ export const organizingSecretaryProfiles = [
     linkedIn: "https://www.linkedin.com/in/r-senthil-kumar/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: ravindranImg,  // Replace with actual image path
     imgAlt: "ravinthiranSirImg",
     name: "Mr. A. Ravinthiran",
     designation: "Assistant Professor",
@@ -418,7 +433,7 @@ export const organizingSecretaryProfiles = [
     linkedIn: "https://www.linkedin.com/in/a-ravinthiran/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: ravikumarImg,  // Replace with actual image path
     imgAlt: "ravikumarSirImg",
     name: "Mr. L. Ravikumar",
     designation: "Assistant Professor",
@@ -427,7 +442,7 @@ export const organizingSecretaryProfiles = [
     linkedIn: "https://www.linkedin.com/in/l-ravikumar/",  // Replace with actual LinkedIn URL
   },
   {
-    img: rpImg,  // Replace with actual image path
+    img: sudhakarImg,  // Replace with actual image path
     imgAlt: "sudhakarSirImg",
     name: "Mr. M. Sudhakar",
     designation: "Assistant Professor",

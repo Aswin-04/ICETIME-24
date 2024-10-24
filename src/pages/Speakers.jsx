@@ -3,7 +3,6 @@ import MainPoster from "../components/MainPoster";
 import Footer from "../components/Footer";
 import ProfileCard from "../components/ProfileCard";
 import Heading from '../components/Heading'
-import rpImg from '../assets/images/speakers/RP.jpeg'
 import { speakers } from "../constants";
 
 const Speakers = () => {
