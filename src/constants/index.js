@@ -5,6 +5,8 @@ import DescriptionIcon from '@mui/icons-material/Description';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import rpImg from '../assets/images/speakers/RP.jpeg'
+
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -220,87 +222,214 @@ export const nationalAdvisoryCommittee = [
 ]
 
 
-export const organizingCommittee = [
-  {
-    "category": "CHIEF-PATRON",
-    "members": [
-      {
-        "name": "Dr. Sai Prakash Leo Muthu",
-        "designation": "Chairman & CEO"
-      },
+// export const organizingCommittee = [
+//   {
+//     "category": "CHIEF-PATRON",
+//     "members": [
+//       {
+//         "name": "Dr. Sai Prakash Leo Muthu",
+//         "designation": "Chairman & CEO"
+//       },
 
-    ]
+//     ]
+//   },
+//   {
+//     "category": "PATRON",
+//     "members": [
+//       {
+//         "name": "Dr. J. Raja",
+//         "designation": "Principal"
+//       }
+//     ]
+//   },
+//   {
+//     "category": "CHAIR",
+//     "members": [
+//       {
+//         "name": "Dr. A Rajendra Prasad",
+//         "designation": "Dean - Student Affairs"
+//       }
+//     ]
+//   },
+//   {
+//     "category": "CONVENOR",
+//     "members": [
+//       {
+//         "name": "Dr. B. Vijaya Ramnath",
+//         "designation": "Professor & Head"
+//       }
+//     ]
+//   },
+//   {
+//     "category": "CO-CONVENOR",
+//     "members": [
+//       {
+//         "name": "Dr. V. Ravi Raj",
+//         "designation": "Associate Professor"
+//       },
+//       {
+//         "name": "Dr. R. Bhoopathi",
+//         "designation": "Associate Professor"
+//       },
+//       {
+//         "name": "Dr. C. Parswajinan",
+//         "designation": "Associate Professor"
+//       }
+//     ]
+//   },
+//   {
+//     "category": "ORGANIZING SECRETARY",
+//     "members": [
+//       {
+//         "name": "Mr. S. Krishnaraj",
+//         "designation": "Associate Professor"
+//       },
+//       {
+//         "name": "Mr. R. Senthil Kumar",
+//         "designation": "Associate Professor"
+//       },
+//       {
+//         "name": "Mr. A. Ravinthiran",
+//         "designation": "Assistant Professor"
+//       },
+//       {
+//         "name": "Mr. L. Ravikumar",
+//         "designation": "Assistant Professor"
+//       },
+//       {
+//         "name": "Mr. M. Sudhakar",
+//         "designation": "Assistant Professor"
+//       }
+//     ]
+//   }
+// ]
+
+export const chiefPatronProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "saiPrakashSirImg",
+    name: "Dr. Sai Prakash Leo Muthu",
+    designation: "Chairman & CEO",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/sai-prakash-leo-muthu/", // Replace with actual LinkedIn URL
+  },
+];
+
+export const patronProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "rajaSirImg",
+    name: "Dr. J. Raja",
+    designation: "Principal",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/j-raja/",  // Replace with actual LinkedIn URL
+  },
+];
+
+export const chairProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "rajendraPrasadSirImg",
+    name: "Dr. A Rajendra Prasad",
+    designation: "Dean - Student Affairs",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/a-rajendra-prasad/",  // Replace with actual LinkedIn URL
+  },
+];
+
+export const convenorProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "vijayaRamnathSirImg",
+    name: "Dr. B. Vijaya Ramnath",
+    designation: "Professor & Head",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/b-vijaya-ramnath/",  // Replace with actual LinkedIn URL
+  },
+];
+
+export const coConvenorProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "raviRajSirImg",
+    name: "Dr. V. Ravi Raj",
+    designation: "Associate Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/v-ravi-raj/",  // Replace with actual LinkedIn URL
   },
   {
-    "category": "PATRON",
-    "members": [
-      {
-        "name": "Dr. J. Raja",
-        "designation": "Principal"
-      }
-    ]
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "bhoopathiSirImg",
+    name: "Dr. R. Bhoopathi",
+    designation: "Associate Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/r-bhoopathi/",  // Replace with actual LinkedIn URL
   },
   {
-    "category": "CHAIR",
-    "members": [
-      {
-        "name": "Dr. A Rajendra Prasad",
-        "designation": "Dean - Student Affairs"
-      }
-    ]
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "parswajinanSirImg",
+    name: "Dr. C. Parswajinan",
+    designation: "Associate Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/c-parswajinan/",  // Replace with actual LinkedIn URL
+  },
+];
+
+export const organizingSecretaryProfiles = [
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "krishnarajSirImg",
+    name: "Mr. S. Krishnaraj",
+    designation: "Associate Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/s-krishnaraj/",  // Replace with actual LinkedIn URL
   },
   {
-    "category": "CONVENOR",
-    "members": [
-      {
-        "name": "Dr. B. Vijaya Ramnath",
-        "designation": "Professor & Head"
-      }
-    ]
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "senthilKumarSirImg",
+    name: "Mr. R. Senthil Kumar",
+    designation: "Associate Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/r-senthil-kumar/",  // Replace with actual LinkedIn URL
   },
   {
-    "category": "CO-CONVENOR",
-    "members": [
-      {
-        "name": "Dr. V. Ravi Raj",
-        "designation": "Associate Professor"
-      },
-      {
-        "name": "Dr. R. Bhoopathi",
-        "designation": "Associate Professor"
-      },
-      {
-        "name": "Dr. C. Parswajinan",
-        "designation": "Associate Professor"
-      }
-    ]
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "ravinthiranSirImg",
+    name: "Mr. A. Ravinthiran",
+    designation: "Assistant Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/a-ravinthiran/",  // Replace with actual LinkedIn URL
   },
   {
-    "category": "ORGANIZING SECRETARY",
-    "members": [
-      {
-        "name": "Mr. S. Krishnaraj",
-        "designation": "Associate Professor"
-      },
-      {
-        "name": "Mr. R. Senthil Kumar",
-        "designation": "Associate Professor"
-      },
-      {
-        "name": "Mr. A. Ravinthiran",
-        "designation": "Assistant Professor"
-      },
-      {
-        "name": "Mr. L. Ravikumar",
-        "designation": "Assistant Professor"
-      },
-      {
-        "name": "Mr. M. Sudhakar",
-        "designation": "Assistant Professor"
-      }
-    ]
-  }
-]
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "ravikumarSirImg",
+    name: "Mr. L. Ravikumar",
+    designation: "Assistant Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/l-ravikumar/",  // Replace with actual LinkedIn URL
+  },
+  {
+    img: rpImg,  // Replace with actual image path
+    imgAlt: "sudhakarSirImg",
+    name: "Mr. M. Sudhakar",
+    designation: "Assistant Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Sri Sai Ram Engineering College",
+    linkedIn: "https://www.linkedin.com/in/m-sudhakar/",  // Replace with actual LinkedIn URL
+  },
+];
+
 
 export const importantDates = [
   {

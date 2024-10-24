@@ -18,7 +18,7 @@ const Speakers = () => {
             img: rpImg,
             imgAlt: "rpSirImg",
             name: "Dr. A. Rajendra Prasad",
-            year: "Dean of Student Affairs",
+            designation: "Dean of Student Affairs",
             linkedIn: "https://www.linkedin.com/in/arprasad225/",
           }}
         ></ProfileCard>

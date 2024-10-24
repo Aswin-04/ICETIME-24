@@ -9,8 +9,8 @@
           <img src={profile.img} alt={profile.imgAlt}  className="rounded-full w-[160px] h-[160px]"/>
         </div>
         <h3 className="h3-text">{profile.name}</h3>
-        {profile.year && (
-          <p className="mb-4 text-sm">{profile.year}</p>
+        {profile.designation && (
+          <p className="mb-4 text-sm">{profile.designation}</p>
         )}
         <a href={profile.linkedIn} target="_blank" rel="noopener noreferrer">
           <LinkedInIcon sx={{ color: blue[500] }} fontSize="large"/>

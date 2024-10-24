@@ -25,6 +25,11 @@ body {
 }
 
 @layer utilities {
+
+  .h3-text {
+    @apply text-xl mb-2 font-medium 
+  }
+
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
