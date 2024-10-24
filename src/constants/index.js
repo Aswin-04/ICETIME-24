@@ -7,6 +7,13 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import rpImg from '../assets/images/speakers/RP.jpeg'
 
+import {
+  subramanianImg,
+  subramanian1Img,
+  aravindRaghavendraImg,
+  mithunKulkarniImg,
+} from '../assets/images/'
+
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -608,5 +615,36 @@ export const conferenceAgenda2 = [
     program: "Technical Sessions"
   }
 ];
+
+export const speakers = [
+  {
+    img: subramanian1Img,  
+    imgAlt: "subramanianSirImg",
+    name: "Dr. C. Subramanian",
+    designation: "Assistant Professor",
+    department: "Department of Mechanical Engineering",
+    college: "Bahrain Technical College, Bahrain",
+    linkedIn: "",  // Replace with actual LinkedIn URL
+  },
+  {
+    img: aravindRaghavendraImg,  // Replace with actual image path
+    imgAlt: "aravindSirImg",
+    name: "Aravind Raghavendra M R",
+    designation: "Development Scientist",
+    department: "",
+    college: "Advanced Remanufacturing Technology Center",
+    linkedIn: "",  // Replace with actual LinkedIn URL
+  },
+  {
+    img: mithunKulkarniImg,  // Replace with actual image path
+    imgAlt: "mithunSirImg",
+    name: "Dr. Mithun V Kulkarni",
+    designation: "Senior Lecturer",
+    department: "",
+    college: "Salalah College of Technology, Oman",
+    linkedIn: "",  // Replace with actual LinkedIn URL
+  }
+];
+
 
 
