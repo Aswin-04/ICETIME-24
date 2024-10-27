@@ -66,7 +66,6 @@ export const aboutDetails = [
     id: 3,
     title: "About the Conference",
     content: `
-
 This conference primarily provides an interdisciplinary platform for academicians, researchers, industrial experts, and students to exchange new ideas and applications, and to establish research relationships to meet demands at the national and international levels.
 
 **ICETIME'24** aims to promote cooperation in various fields and play an active role in improving academic standards by fostering wide discussions on topics such as:
@@ -86,30 +85,12 @@ Keynote lectures will focus on advanced manufacturing technology, industrial eng
 
 ## Publications of the Proceedings
 
-Proceedings of ICGEST 2024 will be published in the *E3S Web of Conferences* (Open Access proceedings in Environment, Energy and Earth Sciences), which is indexed in:
+The proceedings of this conference will be published in the ****AIP Conference Proceedings****.
 
-- Scopus
-- Web of Science – Conference Proceedings Citation Index
-- Ei Compendex
-- IET Inspec
-- Technology Collection (ProQuest)
-- Chemical Abstracts Service (CAS)
-- Other major indexing databases
+### AIP Conference Proceedings
 
-*E3S Web of Conferences* (eISSN: 2267-1242) is an open-access publication series dedicated to archiving conference proceedings in all areas related to Environment, Energy, and Earth Sciences. The journal covers both technological and scientific aspects, as well as social and economic matters. 
+AIP Conference Proceedings contains over 100,000 articles published in over 1700 volumes. This substantial body of scientific literature is testament to our 40-year history as a world-class publishing partner, recognized internationally, and trusted by conference organizers worldwide.
 
-### Major disciplines include:
-- Soil sciences
-- Hydrology
-- Oceanography
-- Climatology
-- Geology
-- Geography
-- Energy engineering (production, distribution, and storage)
-- Renewable energy
-- Sustainable development
-- Natural resources management
-- Environmental health
 `,
     img: "",
     imgAlt: "",
