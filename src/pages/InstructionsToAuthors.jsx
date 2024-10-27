@@ -16,7 +16,7 @@ const InstructionsToAuthors = () => {
       </div>
       <div className="bg-slate-100">
         <div className="max-container mb-20 py-10 flex justify-center ">
-          <div className="px-4 xs:px-8 prose prose-headings:text-center  text-black max-xs:text-sm max-xs:leading-6">
+          <div className="px-8 prose prose-headings:text-center  text-black max-xs:text-sm max-xs:leading-6">
             <ReactMarkdown>{instructionsToAuthors}</ReactMarkdown>
           </div>
         </div>

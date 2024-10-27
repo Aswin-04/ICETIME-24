@@ -13,6 +13,8 @@ import  {
   ReviewProcess,
   Speakers,
   TechnicalCommittee,
+  AboutAIP,
+  PublicationProcess,
 } from './pages'
 
 const routes = [
@@ -45,8 +47,16 @@ const routes = [
     element: <InstructionsToAuthors />,
   },
   {
-    path: "/for-authors/review-process",
+    path: "/publication/review-process",
     element: <ReviewProcess />,
+  },
+  {
+    path: "/publication/publication-process",
+    element: <PublicationProcess />,
+  },
+  {
+    path: "/publication/about-aip",
+    element: <AboutAIP />,
   },
   {
     path: "/speakers",

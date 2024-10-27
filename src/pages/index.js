@@ -10,6 +10,9 @@ import ReviewProcess from "./ReviewProcess";
 import Speakers from "./Speakers";
 import TechnicalCommittee from "./TechnicalCommittee";
 import InstructionsToAuthors from "./InstructionsToAuthors"
+import AboutAIP from "./AboutAIP";
+import PublicationProcess from "./PublicationProcess";
+
 
 export {
   AdvisoryCommittee,
@@ -24,4 +27,6 @@ export {
   ReviewProcess,
   Speakers,
   TechnicalCommittee,
+  AboutAIP,
+  PublicationProcess,
 }

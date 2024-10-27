@@ -22,6 +22,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+  .prose li::marker {
+    @apply text-slate-500 /* Replace with your desired color */
+
+  }
 }
 
 @layer utilities {

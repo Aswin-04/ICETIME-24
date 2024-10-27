@@ -53,7 +53,17 @@ export const navItems = [
         label: "Instructions to Authors",
         href: "/for-authors/instructions-to-authors",
       },
-      { label: "Review Process", href: "/for-authors/review-process" },
+      // { label: "Review Process", href: "/for-authors/review-process" },
+    ],
+  },
+  {
+    label: "Publications",
+    dropdown: true,
+    items: [
+      { label: "About AIP", href: "/publication/about-aip" },
+      { label: "Publication Process", href: "/publication/publication-process" },
+      { label: "Review Process", href: "/publication/review-process" },
+      // { label: "Abstracting & Indexing", href: "/publication/abstracting-indexing" },
     ],
   },
   { label: "Program Schedule", href: "/program-schedule" },
@@ -140,6 +150,97 @@ SEC Motorsports encourages students to enroll, gain hands-on experience, and dev
 `,
   },
 ];
+
+export const publicationProcess = {
+  label: "The Publication Process",
+  content: `
+## Publication Process
+
+Proceedings publication differs from regular journals in several aspects, which makes it important for all authors to follow our guidelines.
+
+Most pure proceedings publications, including ours, use author-prepared PDF files for publication and production of printed copies. Proceedings papers are submitted directly to the proceedings editors who manage the review process and collect the accepted articles. The editors submit the proceedings articles and copyright release forms to AIP Publishing in a single batch rather than individually as each paper is ready.
+
+The proceedings manuscripts are published as a single collection (volume) of AIP Conference Proceedings. After the editors have collected sufficient accepted manuscripts, or as many manuscripts as authors are willing to write, they submit them to us in a single batch. We cannot publish any proceedings until the entire set of files meets the requirements of our publication and production systems.
+
+## Abstracting & Indexing (A+I)
+
+AIP Publishing recognizes the importance of enhancing visibility and discoverability of published research by including published research in abstracting and indexing (A+I) databases that researchers use. We support the work of A+I services by providing researchers with access to all of our published proceedings volumes upon publication.
+
+However, how quickly selected proceedings are available in an A+I service is up to the provider; AIP Publishing has no influence on this timeframe. 
+
+### AIP Conference Proceedings are indexed in the following services:
+
+- The Conference Proceedings Citation Index (part of Web of Science)
+- Scopus (Elsevier)
+- Inspec
+- Chemical Abstracts Service (CAS)
+- Astrophysics Data System (ADS)
+  `,
+}
+
+
+export const reviewProcess = {
+  label: "Peer Review Process",
+  content: `
+  ## Peer Review
+
+  AIP Publishing understands the nature and purpose of conference proceedings and their essential role within the field of scientific communication. We encourage you to provide proceedings that contain work that is of long-term interest and benefit to the scientific community; in other words, articles that can be read and cited with confidence. To achieve this goal, we have strengthened our requirements for proceedings editors to commit to undertaking an appropriate peer-review process. Conference organizers and editors may select their reviewers, but all reviewers must be suitably qualified experts in the field. Although AIP Publishing does not prescribe the number of reviewers per manuscript for the proceedings, all reviews must be conducted according to the standard norms and expectations of an ethical review process. A robust peer-review process will reflect the quality of the published proceedings, providing recognition of the editors’ work and enhancing the value of your proceedings to abstracting and indexing services.
+
+  ## Guidelines
+
+  Compared with journals, proceedings can publish a much wider range of articles, providing scope and opportunity to create comprehensive proceedings volumes. In addition to original research manuscripts, AIP Conference Proceedings welcomes review or tutorial articles and other works that provide useful summaries, background information, or introductions to specific fields of research. We also welcome articles that provide a historical perspective or review. AIP Publishing understands that the specifics of the review process will need to be according to the community’s and conference’s traditions or expectations. Keep in mind that although proceedings include a broader range of article types, they should not include poor quality or inferior work that is fundamentally unworthy of publication.
+
+  We ask all editors and associated referees to evaluate each manuscript according to the following minimum criteria.
+
+  **Contribution:** Would publication of the article make a positive contribution to the scientific literature? What would you gain by reading it? An article’s contribution does not need to be new or unpublished results; for example, it can have the following attributes:
+    - New explanations of familiar topics
+    - Excellent descriptions or explanations of complex subjects
+    - Tutorials or review articles
+    - Useful or interesting background information
+    - Enjoyable and informed historical perspective or overview
+    - Be more than an abstract (we reject 1-page, abstract-only articles)
+    - Have merit (through its rigor, accuracy, or correctness)
+    - Be original (previously unpublished and solely the work of the author)
+    - Include an abstract (with a sufficient summary of the paper and outline of goals, results, and conclusion, including conveying sufficient understanding when read in isolation from the paper)
+
+  **Title:** Have an adequate title (correctly describes the article such that reading it alone would convey the nature and content).
+
+  **Conclusions:** Have reasonable conclusions (based on the results presented, or ideas/concepts discussed).
+
+  **Clarity:** Is clear and concise (well-expressed ideas readable and understandable by its intended readership).
+
+  **Language:** Uses correct English (sufficiently conveys the science and intent/meaning or purpose).
+
+  Poorly written papers will be returned to the authors for re-writing or will be rejected if the author is unable or unwilling to make the recommended improvements.
+
+  ### References
+
+  References will depend on the type of article; however, here are some general questions you may like to consider.
+
+  - Do the references look appropriate for the topic? Are key papers missing that you would expect to see?
+  - Is the distribution of journals and publications cited, and age of the citations, appropriate?
+  - Do the references demonstrate that the author is aware of current and key research in their field?
+  `
+}
+
+
+export const aboutAIP = {
+  label: "About AIP Publishing",
+  content: `
+
+  A wholly owned not-for-profit subsidiary of the **American Institute of Physics (AIP)**, AIP Publishing’s mission is to advance, promote, and serve the physical sciences for the benefit of humanity by empowering researchers and breaking down barriers to open, equitable research communication. Our services, tools, and platforms connect researchers with publications, peers, institutions, and societies across the globe, expanding the reach and impact of their work.
+
+  AIP Publishing’s extensive and growing portfolio of journals and conference proceedings, partner publications, and the AIP flagship magazine Physics Today provides high-quality, rigorously peer-reviewed research and insights across the physical sciences, including but not limited to applied physics, biophysics, chemical physics, energy, materials science, nanoscience, and photonics. The depth and breadth of that content has made us a leading and vital scientific publishing house.
+
+  ---
+
+  ### AIP Conference Proceedings
+
+  AIP Conference Proceedings contains over 100,000 articles published in over 1700 volumes. This substantial body of scientific literature is testament to our 40-year history as a world-class publishing partner, recognized internationally, and trusted by conference organizers worldwide.
+  `
+};
+
+
 
 export const quickLinks = {
   title: "Quick Links",
@@ -671,6 +772,7 @@ export const instructionsToAuthors = `
 ### Journal Publication
 
 After a careful refereeing process, following the journal norms, selected papers will be recommended for publication in **Scopus-indexed journals**.  
+
 (Journal names will be updated soon).
 `;
 

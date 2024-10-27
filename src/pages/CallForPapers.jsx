@@ -13,7 +13,7 @@ const CallForPapers = () => {
       <div className="mt-10">
         <Heading title={"Call for Papers"}></Heading>
       </div>
-      <div className="mb-20 px-4 py-10 flex justify-center  border bg-slate-100">
+      <div className="mb-20 px-8 py-10 flex justify-center  border bg-slate-100">
         <div className="prose max-container text-black max-xs:text-sm max-xs:leading-6">
           <ReactMarkdown>{conferenceTracks}</ReactMarkdown>
         </div>
