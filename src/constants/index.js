@@ -1,10 +1,10 @@
-import { clgImg, departmentImg } from "../assets/images";
-import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import DescriptionIcon from '@mui/icons-material/Description';
-import CreditCardIcon from '@mui/icons-material/CreditCard';
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import { clgImg, departmentImg, secMotorSportsImg } from "../assets/images";
+import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import DescriptionIcon from "@mui/icons-material/Description";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+import EventAvailableIcon from "@mui/icons-material/EventAvailable";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
 import {
   bhoopathiImg,
@@ -19,16 +19,14 @@ import {
   ceoImg,
   principalImg,
   rpImg,
-
-} from '../assets/images/'
+} from "../assets/images/";
 
 import {
   subramanianImg,
   subramanian1Img,
   aravindRaghavendraImg,
   mithunKulkarniImg,
-} from '../assets/images/'
-
+} from "../assets/images/";
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -51,7 +49,10 @@ export const navItems = [
     items: [
       { label: "Call for Papers", href: "/for-authors/call-for-papers" },
       { label: "Important Dates", href: "/for-authors/important-dates" },
-      { label: "Instructions to Authors", href: "/for-authors/instructions-to-authors" },
+      {
+        label: "Instructions to Authors",
+        href: "/for-authors/instructions-to-authors",
+      },
       { label: "Review Process", href: "/for-authors/review-process" },
     ],
   },
@@ -145,20 +146,34 @@ The Department has signed MoUs with organizations like TIEMA, AIEMA, COINDIA, an
     img: departmentImg,
     imgAlt: "departmentImg",
   },
-];
 
+  {
+    id: 3,
+    title: "SEC Motorsports",
+    img: secMotorSportsImg,
+    imgAlt: "SecMotorsports img",
+    content: `
+SEC Motorsports is a club from the Mechanical Engineering Department of Sri Sai Ram Engineering College. This club is the hub of all motorsport events under one banner, including **The Rocketeer Racing**, **Team Evega Racing**, **Team Luaskart**, **Team Agrosters**, **Racing Rois**, **Green Pyora**, **Black Squad**, and **Revival Racing**. These teams participate in various national-level events and bring pride to the club through their numerous prestigious awards in different categories, achieving high accolades, including All India Rankings (AIR).
+
+SEC Motorsports encourages students to enroll, gain hands-on experience, and develop knowledge in recent automotive and manufacturing technologies. From design and modeling to prototyping and fabrication, the club provides comprehensive exposure to modern industry practices and innovation.
+`,
+  },
+];
 
 export const quickLinks = {
   title: "Quick Links",
   links: [
     { label: "Home", href: "/" },
     { label: "Advisory Committee", href: "/committee/advisory-committee" },
-    { label: "Organizing Committee", href: "/committee/organizing-committee",},
+    { label: "Organizing Committee", href: "/committee/organizing-committee" },
     // { label: "Technical Committee", href: "/committee/technical-committee" },
     { label: "Speakers", href: "/speakers" },
     { label: "Call for Papers", href: "/for-authors/call-for-papers" },
     { label: "Important Dates", href: "/for-authors/important-dates" },
-    { label: "Instructions to Authors", href: "/for-authors/instructions-to-authors" },
+    {
+      label: "Instructions to Authors",
+      href: "/for-authors/instructions-to-authors",
+    },
     { label: "Review Process", href: "/for-authors/review-process" },
     { label: "Program Schedule", href: "/program-schedule" },
     { label: "Contact", href: "/contact" },
@@ -167,82 +182,177 @@ export const quickLinks = {
 };
 
 export const internationalAdvisoryCommittee = [
-  { "name": "Dr. Tariq Darabseh", "designation": "Jordan University of Science and Technology" },
-  { "name": "Prof. Mohammad Reza Eslami", "designation": "Amirkabir University of Technology, Iran" },
-  { "name": "Ir. Dr. Masri Bin Baharom", "designation": "Head of Mechanical Engineering Department, Universiti Teknologi PETRONAS (UTP), Malaysia" },
-  { "name": "Prof. Ashraf A Shikdar", "designation": "Sultan Qaboos University" },
-  { "name": "Prof. Naser S. Al-Huniti", "designation": "University of Jordan, Jordan" },
-  { "name": "Dr. Peter Neilsen", "designation": "Aalborg University, Denmark" },
-  { "name": "Mr. Chinna Chinnakaruppan", "designation": "CAC Business Solutions, U.S.A" },
-  { "name": "Mr. S. Ganesh", "designation": "President, AMTEC Precision, USA" },
-  { "name": "Dr. Yousef Amer", "designation": "Program Director at University of South Australia" },
-  { "name": "Dr. A. Senthikumar", "designation": "National University of Singapore, Singapore" },
-  { "name": "Dr. (Ing) Christian Oliver Paschereit", "designation": "Hermann Fottinger Institute (HFI) for Fluid Dynamics and Technical Acoustics, TU Berlin" },
-  { "name": "Tajul Ariffin B Shamsuddin", "designation": "Senior Executive, Universiti Teknologi Petronas, Malaysia" },
-  { "name": "Dr. Vijanth Sagayan Asirvadam", "designation": "Associate Professor, Universiti Teknologi Petronas, Malaysia" },
-  { "name": "Prof. Paulo Davam", "designation": "University of Aveiro, Portugal" },
-  { "name": "F.T.S. Chan", "designation": "Hong Kong Polytechnic College, Hong Kong" },
-  { "name": "Yung-Tien Liu", "designation": "Professor, Dr. Eng. National Kaohsiung First University of Science and Technology, Taiwan" },
-  { "name": "Prof. Khaled Abou-El-Hossein", "designation": "Director, NMMU, South Africa" },
-  { "name": "Prof. Tapas Mallick", "designation": "University of Exeter, UK" },
-  { "name": "S. Nachiappan", "designation": "University of Nottingham Ningbo, China" },
-  { "name": "M.M. Noor", "designation": "University Malaysia Pahang (UMP), Malaysia" },
-  { "name": "Dr. B.V. Reddy", "designation": "UOIT, Canada" }
+  {
+    name: "Dr. Tariq Darabseh",
+    designation: "Jordan University of Science and Technology",
+  },
+  {
+    name: "Prof. Mohammad Reza Eslami",
+    designation: "Amirkabir University of Technology, Iran",
+  },
+  {
+    name: "Ir. Dr. Masri Bin Baharom",
+    designation:
+      "Head of Mechanical Engineering Department, Universiti Teknologi PETRONAS (UTP), Malaysia",
+  },
+  { name: "Prof. Ashraf A Shikdar", designation: "Sultan Qaboos University" },
+  {
+    name: "Prof. Naser S. Al-Huniti",
+    designation: "University of Jordan, Jordan",
+  },
+  { name: "Dr. Peter Neilsen", designation: "Aalborg University, Denmark" },
+  {
+    name: "Mr. Chinna Chinnakaruppan",
+    designation: "CAC Business Solutions, U.S.A",
+  },
+  { name: "Mr. S. Ganesh", designation: "President, AMTEC Precision, USA" },
+  {
+    name: "Dr. Yousef Amer",
+    designation: "Program Director at University of South Australia",
+  },
+  {
+    name: "Dr. A. Senthikumar",
+    designation: "National University of Singapore, Singapore",
+  },
+  {
+    name: "Dr. (Ing) Christian Oliver Paschereit",
+    designation:
+      "Hermann Fottinger Institute (HFI) for Fluid Dynamics and Technical Acoustics, TU Berlin",
+  },
+  {
+    name: "Tajul Ariffin B Shamsuddin",
+    designation: "Senior Executive, Universiti Teknologi Petronas, Malaysia",
+  },
+  {
+    name: "Dr. Vijanth Sagayan Asirvadam",
+    designation: "Associate Professor, Universiti Teknologi Petronas, Malaysia",
+  },
+  { name: "Prof. Paulo Davam", designation: "University of Aveiro, Portugal" },
+  {
+    name: "F.T.S. Chan",
+    designation: "Hong Kong Polytechnic College, Hong Kong",
+  },
+  {
+    name: "Yung-Tien Liu",
+    designation:
+      "Professor, Dr. Eng. National Kaohsiung First University of Science and Technology, Taiwan",
+  },
+  {
+    name: "Prof. Khaled Abou-El-Hossein",
+    designation: "Director, NMMU, South Africa",
+  },
+  { name: "Prof. Tapas Mallick", designation: "University of Exeter, UK" },
+  {
+    name: "S. Nachiappan",
+    designation: "University of Nottingham Ningbo, China",
+  },
+  {
+    name: "M.M. Noor",
+    designation: "University Malaysia Pahang (UMP), Malaysia",
+  },
+  { name: "Dr. B.V. Reddy", designation: "UOIT, Canada" },
 ];
 
-
 export const nationalAdvisoryCommittee = [
-  { "name": "Dr. Anand Goyal", "designation": "Vice-Chancellor, A.P.Goyal Shimla University, Shimla" },
-  { "name": "Dr. Atmananad", "designation": "Director, National Institute of Ocean Technology, Chennai" },
-  { "name": "Dr. Azad", "designation": "Director, Centre for International Affairs, Anna University, Chennai" },
-  { "name": "Prof. B.V. Babu", "designation": "Vice Chancellor, Galgotia University, Noida" },
-  { "name": "Dr. Balasubramaniam V.", "designation": "Annamalai University, Chidambaram" },
-  { "name": "Dr. Dhanalakshmi V.", "designation": "TCE, Madurai" },
-  { "name": "Dr. Gajendran S.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Gobinath Chintala", "designation": "Alliance University, Karnataka" },
-  { "name": "Dr. Jayavel S.", "designation": "IITD & M, Chennai" },
-  { "name": "Dr. Jeyapaul R.", "designation": "NIT, Trichy" },
-  { "name": "Dr. Jose Mathew", "designation": "NIT Calicut" },
-  { "name": "Dr. Karunamoorthy L.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Kalichelvan K.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Thanigaiarasu S.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Kesavan R.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Lenin Babu", "designation": "VIT, Chennai" },
-  { "name": "Dr. Loganathan M.", "designation": "Annamalai University, Chidambaram" },
-  { "name": "Mr. V. Balajikrishna", "designation": "Vice-President, Brakes India Pvt. Ltd., Chennai" },
-  { "name": "Dr. K. Palanikuamr", "designation": "Principal, Sri Sairam Institute of Technology, Chennai" },
-  { "name": "Dr. Manoharan N.", "designation": "AMET University, Chennai" },
-  { "name": "Dr. Mohan B.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Moorthy B.S.", "designation": "IIT, Chennai" },
-  { "name": "Dr. Murugan N.", "designation": "CIT, Coimbatore" },
-  { "name": "Dr. Murugan S.", "designation": "NIT, Rourkela" },
-  { "name": "Dr. Narendiran T.T.", "designation": "IIT, Chennai" },
-  { "name": "Dr. T. Sekar", "designation": "TPGIT, Vellore" },
-  { "name": "Dr. Prabakaran S.", "designation": "Mepco, Sivakasi" },
-  { "name": "Dr. Rajadurai A.", "designation": "Anna University, Chennai" },
-  { "name": "Dr. Rajan T.P. D.", "designation": "NIIST, Trivandrum" },
-  { "name": "Dr. Rajaram", "designation": "B.S.Abdul Rahman University, Chennai" },
-  { "name": "Dr. Rajesekaran S.", "designation": "SRM University, Chennai" },
-  { "name": "Dr. Rajesh R.", "designation": "Noorul Islam University, Kanyakumari" },
-  { "name": "Dr. Ramachandran S.", "designation": "Sathyabama University, Chennai" },
-  { "name": "Dr. S. Radhakrishnan", "designation": "Director, R & D MIT, Pune" },
-  { "name": "Dr. Ganesh Sundaraman", "designation": "IIT, Chennai" },
-  { "name": "Dr. S.K. Kautish", "designation": "Principal, North West Engineering & Technology, Moga (Punjab)" },
-  { "name": "Dr. Senthil R.", "designation": "Anna University, Villupuram" },
-  { "name": "Dr. Senthilvelan S.", "designation": "IIT, Guwahati" },
-  { "name": "Dr. Senthilvelan T.", "designation": "PEC, Pondicherry" },
-  { "name": "Dr. Shunmugam S.", "designation": "NIT, Trichy" },
-  { "name": "Dr. Udaya Kumar M.", "designation": "Kalasalingam University, Krishnankoil" },
-  { "name": "Dr. Vijaya Raghavan L.", "designation": "IIT, Chennai" },
-  { "name": "Dr. Vijaya Kumar S.", "designation": "Anna University, Kanchipuram" },
-  { "name": "Shri Banerjee A.J.", "designation": "CMERI, Durgapur" },
-  { "name": "Dr. N. Gowri Shankar", "designation": "India Pistons Ltd., Chennai" },
-  { "name": "Dr. Krishnakumar S.", "designation": "Senior Officer, DRDO" },
-  { "name": "Dr. J. Jayaprakash", "designation": "Professor, MGR University" },
-  { "name": "Prof. Dr. P.K. Prasad", "designation": "Principal, Bengal College of Engineering & Technology, Durgapur, West Bengal" },
-  { "name": "Dr. Pradeep Jaevandhiya", "designation": "Principal, Pankaj Laddhad Institute of Technology and Management Studies, Buldana" }
-]
-
+  {
+    name: "Dr. Anand Goyal",
+    designation: "Vice-Chancellor, A.P.Goyal Shimla University, Shimla",
+  },
+  {
+    name: "Dr. Atmananad",
+    designation: "Director, National Institute of Ocean Technology, Chennai",
+  },
+  {
+    name: "Dr. Azad",
+    designation:
+      "Director, Centre for International Affairs, Anna University, Chennai",
+  },
+  {
+    name: "Prof. B.V. Babu",
+    designation: "Vice Chancellor, Galgotia University, Noida",
+  },
+  {
+    name: "Dr. Balasubramaniam V.",
+    designation: "Annamalai University, Chidambaram",
+  },
+  { name: "Dr. Dhanalakshmi V.", designation: "TCE, Madurai" },
+  { name: "Dr. Gajendran S.", designation: "Anna University, Chennai" },
+  {
+    name: "Dr. Gobinath Chintala",
+    designation: "Alliance University, Karnataka",
+  },
+  { name: "Dr. Jayavel S.", designation: "IITD & M, Chennai" },
+  { name: "Dr. Jeyapaul R.", designation: "NIT, Trichy" },
+  { name: "Dr. Jose Mathew", designation: "NIT Calicut" },
+  { name: "Dr. Karunamoorthy L.", designation: "Anna University, Chennai" },
+  { name: "Dr. Kalichelvan K.", designation: "Anna University, Chennai" },
+  { name: "Dr. Thanigaiarasu S.", designation: "Anna University, Chennai" },
+  { name: "Dr. Kesavan R.", designation: "Anna University, Chennai" },
+  { name: "Dr. Lenin Babu", designation: "VIT, Chennai" },
+  {
+    name: "Dr. Loganathan M.",
+    designation: "Annamalai University, Chidambaram",
+  },
+  {
+    name: "Mr. V. Balajikrishna",
+    designation: "Vice-President, Brakes India Pvt. Ltd., Chennai",
+  },
+  {
+    name: "Dr. K. Palanikuamr",
+    designation: "Principal, Sri Sairam Institute of Technology, Chennai",
+  },
+  { name: "Dr. Manoharan N.", designation: "AMET University, Chennai" },
+  { name: "Dr. Mohan B.", designation: "Anna University, Chennai" },
+  { name: "Dr. Moorthy B.S.", designation: "IIT, Chennai" },
+  { name: "Dr. Murugan N.", designation: "CIT, Coimbatore" },
+  { name: "Dr. Murugan S.", designation: "NIT, Rourkela" },
+  { name: "Dr. Narendiran T.T.", designation: "IIT, Chennai" },
+  { name: "Dr. T. Sekar", designation: "TPGIT, Vellore" },
+  { name: "Dr. Prabakaran S.", designation: "Mepco, Sivakasi" },
+  { name: "Dr. Rajadurai A.", designation: "Anna University, Chennai" },
+  { name: "Dr. Rajan T.P. D.", designation: "NIIST, Trivandrum" },
+  { name: "Dr. Rajaram", designation: "B.S.Abdul Rahman University, Chennai" },
+  { name: "Dr. Rajesekaran S.", designation: "SRM University, Chennai" },
+  {
+    name: "Dr. Rajesh R.",
+    designation: "Noorul Islam University, Kanyakumari",
+  },
+  {
+    name: "Dr. Ramachandran S.",
+    designation: "Sathyabama University, Chennai",
+  },
+  { name: "Dr. S. Radhakrishnan", designation: "Director, R & D MIT, Pune" },
+  { name: "Dr. Ganesh Sundaraman", designation: "IIT, Chennai" },
+  {
+    name: "Dr. S.K. Kautish",
+    designation:
+      "Principal, North West Engineering & Technology, Moga (Punjab)",
+  },
+  { name: "Dr. Senthil R.", designation: "Anna University, Villupuram" },
+  { name: "Dr. Senthilvelan S.", designation: "IIT, Guwahati" },
+  { name: "Dr. Senthilvelan T.", designation: "PEC, Pondicherry" },
+  { name: "Dr. Shunmugam S.", designation: "NIT, Trichy" },
+  {
+    name: "Dr. Udaya Kumar M.",
+    designation: "Kalasalingam University, Krishnankoil",
+  },
+  { name: "Dr. Vijaya Raghavan L.", designation: "IIT, Chennai" },
+  { name: "Dr. Vijaya Kumar S.", designation: "Anna University, Kanchipuram" },
+  { name: "Shri Banerjee A.J.", designation: "CMERI, Durgapur" },
+  { name: "Dr. N. Gowri Shankar", designation: "India Pistons Ltd., Chennai" },
+  { name: "Dr. Krishnakumar S.", designation: "Senior Officer, DRDO" },
+  { name: "Dr. J. Jayaprakash", designation: "Professor, MGR University" },
+  {
+    name: "Prof. Dr. P.K. Prasad",
+    designation:
+      "Principal, Bengal College of Engineering & Technology, Durgapur, West Bengal",
+  },
+  {
+    name: "Dr. Pradeep Jaevandhiya",
+    designation:
+      "Principal, Pankaj Laddhad Institute of Technology and Management Studies, Buldana",
+  },
+];
 
 // export const organizingCommittee = [
 //   {
@@ -328,7 +438,7 @@ export const nationalAdvisoryCommittee = [
 
 export const chiefPatronProfiles = [
   {
-    img: ceoImg,  // Replace with actual image path
+    img: ceoImg, // Replace with actual image path
     imgAlt: "saiPrakashSirImg",
     name: "Dr. Sai Prakash Leo Muthu",
     designation: "Chairman & CEO",
@@ -340,157 +450,155 @@ export const chiefPatronProfiles = [
 
 export const patronProfiles = [
   {
-    img: principalImg,  // Replace with actual image path
+    img: principalImg, // Replace with actual image path
     imgAlt: "rajaSirImg",
     name: "Dr. J. Raja",
     designation: "Principal",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/j-raja/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/j-raja/", // Replace with actual LinkedIn URL
   },
 ];
 
 export const chairProfiles = [
   {
-    img: rpImg,  // Replace with actual image path
+    img: rpImg, // Replace with actual image path
     imgAlt: "rajendraPrasadSirImg",
     name: "Dr. A Rajendra Prasad",
     designation: "Dean - Student Affairs",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/a-rajendra-prasad/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/a-rajendra-prasad/", // Replace with actual LinkedIn URL
   },
 ];
 
 export const convenorProfiles = [
   {
-    img: hodImg,  // Replace with actual image path
+    img: hodImg, // Replace with actual image path
     imgAlt: "vijayaRamnathSirImg",
     name: "Dr. B. Vijaya Ramnath",
     designation: "Professor & Head",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/b-vijaya-ramnath/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/b-vijaya-ramnath/", // Replace with actual LinkedIn URL
   },
 ];
 
 export const coConvenorProfiles = [
   {
-    img: ravirajImg,  // Replace with actual image path
+    img: ravirajImg, // Replace with actual image path
     imgAlt: "raviRajSirImg",
     name: "Dr. V. Ravi Raj",
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/v-ravi-raj/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/v-ravi-raj/", // Replace with actual LinkedIn URL
   },
   {
-    img: bhoopathiImg,  // Replace with actual image path
+    img: bhoopathiImg, // Replace with actual image path
     imgAlt: "bhoopathiSirImg",
     name: "Dr. R. Bhoopathi",
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/r-bhoopathi/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/r-bhoopathi/", // Replace with actual LinkedIn URL
   },
   {
-    img: parswajinanImg,  // Replace with actual image path
+    img: parswajinanImg, // Replace with actual image path
     imgAlt: "parswajinanSirImg",
     name: "Dr. C. Parswajinan",
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/c-parswajinan/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/c-parswajinan/", // Replace with actual LinkedIn URL
   },
 ];
 
 export const organizingSecretaryProfiles = [
   {
-    img: krishnarajImg,  // Replace with actual image path
+    img: krishnarajImg, // Replace with actual image path
     imgAlt: "krishnarajSirImg",
     name: "Mr. S. Krishnaraj",
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/s-krishnaraj/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/s-krishnaraj/", // Replace with actual LinkedIn URL
   },
   {
-    img: senthilkumarImg,  // Replace with actual image path
+    img: senthilkumarImg, // Replace with actual image path
     imgAlt: "senthilKumarSirImg",
     name: "Mr. R. Senthil Kumar",
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/r-senthil-kumar/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/r-senthil-kumar/", // Replace with actual LinkedIn URL
   },
   {
-    img: ravindranImg,  // Replace with actual image path
+    img: ravindranImg, // Replace with actual image path
     imgAlt: "ravinthiranSirImg",
     name: "Mr. A. Ravinthiran",
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/a-ravinthiran/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/a-ravinthiran/", // Replace with actual LinkedIn URL
   },
   {
-    img: ravikumarImg,  // Replace with actual image path
+    img: ravikumarImg, // Replace with actual image path
     imgAlt: "ravikumarSirImg",
     name: "Mr. L. Ravikumar",
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/l-ravikumar/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/l-ravikumar/", // Replace with actual LinkedIn URL
   },
   {
-    img: sudhakarImg,  // Replace with actual image path
+    img: sudhakarImg, // Replace with actual image path
     imgAlt: "sudhakarSirImg",
     name: "Mr. M. Sudhakar",
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/m-sudhakar/",  // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/m-sudhakar/", // Replace with actual LinkedIn URL
   },
 ];
-
 
 export const importantDates = [
   {
     deadline: "Last Date to Submit Abstract",
     date: "20th November 2024",
-    icon: DriveFolderUploadIcon 
+    icon: DriveFolderUploadIcon,
   },
   {
     deadline: "Abstract Selection Intimation",
     date: "25th November 2024",
-    icon: CheckCircleOutlineIcon 
+    icon: CheckCircleOutlineIcon,
   },
   {
     deadline: "Last Date to Submit Full Paper",
     date: "15th December 2024",
-    icon: DescriptionIcon 
+    icon: DescriptionIcon,
   },
   {
     deadline: "Full Paper Selection Intimation",
     date: "25th December 2024",
-    icon: CheckCircleOutlineIcon 
+    icon: CheckCircleOutlineIcon,
   },
   {
     deadline: "Payment Last Date",
     date: "28th December 2024",
-    icon: CreditCardIcon 
+    icon: CreditCardIcon,
   },
   {
     deadline: "Registration Commences",
     date: "28th December 2024",
-    icon: EventAvailableIcon 
+    icon: EventAvailableIcon,
   },
   {
     deadline: "Registration Ends",
     date: "12th January 2025",
-    icon: AccessTimeIcon
-  }
+    icon: AccessTimeIcon,
+  },
 ];
-
 
 export const conferenceTracks = `
 ### ADVANCEMENT IN MECHANICAL ENGINEERING
@@ -588,78 +696,75 @@ After a careful refereeing process, following the journal norms, selected papers
 export const conferenceAgenda1 = [
   {
     timing: "09:00 AM",
-    program: "Address & Registration / Welcome"
+    program: "Address & Registration / Welcome",
   },
   {
     timing: "10:00 AM",
-    program: "Keynote Speech"
+    program: "Keynote Speech",
   },
   {
     timing: "11:00 AM",
-    program: "Panel Discussions"
+    program: "Panel Discussions",
   },
   {
     timing: "01:00 PM",
-    program: "Lunch"
+    program: "Lunch",
   },
   {
     timing: "02:00 PM",
-    program: "Technical Sessions"
-  }
+    program: "Technical Sessions",
+  },
 ];
 
 export const conferenceAgenda2 = [
   {
     timing: "09:00 AM",
-    program: "Special Address"
+    program: "Special Address",
   },
   {
     timing: "10:00 AM",
-    program: "Keynote Speech"
+    program: "Keynote Speech",
   },
   {
     timing: "11:00 AM",
-    program: "Panel Discussions"
+    program: "Panel Discussions",
   },
   {
     timing: "01:00 PM",
-    program: "Lunch"
+    program: "Lunch",
   },
   {
     timing: "02:00 PM",
-    program: "Technical Sessions"
-  }
+    program: "Technical Sessions",
+  },
 ];
 
 export const speakers = [
   {
-    img: subramanian1Img,  
+    img: subramanian1Img,
     imgAlt: "subramanianSirImg",
     name: "Dr. C. Subramanian",
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Bahrain Technical College, Bahrain",
-    linkedIn: "",  // Replace with actual LinkedIn URL
+    linkedIn: "", // Replace with actual LinkedIn URL
   },
   {
-    img: aravindRaghavendraImg,  // Replace with actual image path
+    img: aravindRaghavendraImg, // Replace with actual image path
     imgAlt: "aravindSirImg",
     name: "Aravind Raghavendra M R",
     designation: "Development Scientist",
     department: "",
     college: "Advanced Remanufacturing Technology Center",
-    linkedIn: "",  // Replace with actual LinkedIn URL
+    linkedIn: "", // Replace with actual LinkedIn URL
   },
   {
-    img: mithunKulkarniImg,  // Replace with actual image path
+    img: mithunKulkarniImg, // Replace with actual image path
     imgAlt: "mithunSirImg",
     name: "Dr. Mithun V Kulkarni",
     designation: "Senior Lecturer",
     department: "",
     college: "Salalah College of Technology, Oman",
-    linkedIn: "",  // Replace with actual LinkedIn URL
-  }
+    linkedIn: "", // Replace with actual LinkedIn URL
+  },
 ];
-
-
-

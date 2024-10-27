@@ -14,7 +14,7 @@ const HomePage = () => {
         <MainPoster/>
 
         {aboutDetails.map((details) => (
-          <div className="bg-gray-100 mt-10 lg:mt-20" key={details.id}>
+          <div className="bg-gray-100 mt-10 lg:mt-20 mb-20" key={details.id}>
             <Heading title={details.title}></Heading>
             <AboutDetailsRenderer
               content={details.content}

@@ -1,6 +1,7 @@
 import mainPoster from './home-banner-updated.jpg'
 import clgImg from './clg-img.jpg'
 import departmentImg from './department.jpeg'
+import secMotorSportsImg from './sec-motorsports-logo.jpeg'
 import sairamIcon from './sairam-icon.png'
 import subramanianImg from './speakers/subramanian.jpeg'
 import subramanian1Img from './speakers/subramanian-1.png'
@@ -22,10 +23,12 @@ import rpImg from './staffs/rp.jpeg'
 
 
 
+
 export {
   mainPoster,
   clgImg,
   departmentImg,
+  secMotorSportsImg,
   sairamIcon,
   subramanianImg,
   subramanian1Img,
