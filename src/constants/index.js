@@ -180,7 +180,7 @@ However, how quickly selected proceedings are available in an A+I service is up 
 
 
 export const reviewProcess = {
-  label: "Peer Review Process",
+  label: "Review Process",
   content: `
   ## Peer Review
 
@@ -213,7 +213,7 @@ export const reviewProcess = {
 
   Poorly written papers will be returned to the authors for re-writing or will be rejected if the author is unable or unwilling to make the recommended improvements.
 
-  ### References
+  ## References
 
   References will depend on the type of article; however, here are some general questions you may like to consider.
 
