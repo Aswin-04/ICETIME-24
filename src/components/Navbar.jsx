@@ -161,7 +161,7 @@ const Navbar = () => {
               }
               onMouseLeave={handleMouseLeave}
               onClick={() => {
-                if(item.label === 'Committee' || item.label === 'For Authors') return
+                if(['Committee', 'For Authors', 'Publications'].includes(item.label)) return
                 handleLinkClick(item.label.toLowerCase())
               } }
             >

@@ -47,15 +47,15 @@ const routes = [
     element: <InstructionsToAuthors />,
   },
   {
-    path: "/publication/review-process",
+    path: "/publications/review-process",
     element: <ReviewProcess />,
   },
   {
-    path: "/publication/publication-process",
+    path: "/publications/publication-process",
     element: <PublicationProcess />,
   },
   {
-    path: "/publication/about-aip",
+    path: "/publications/about-aip",
     element: <AboutAIP />,
   },
   {

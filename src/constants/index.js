@@ -60,9 +60,9 @@ export const navItems = [
     label: "Publications",
     dropdown: true,
     items: [
-      { label: "About AIP", href: "/publication/about-aip" },
-      { label: "Publication Process", href: "/publication/publication-process" },
-      { label: "Review Process", href: "/publication/review-process" },
+      { label: "About AIP", href: "/publications/about-aip" },
+      { label: "Publication Process", href: "/publications/publication-process" },
+      { label: "Review Process", href: "/publications/review-process" },
       // { label: "Abstracting & Indexing", href: "/publication/abstracting-indexing" },
     ],
   },
