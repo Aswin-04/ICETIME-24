@@ -61,7 +61,10 @@ export const navItems = [
     dropdown: true,
     items: [
       { label: "About AIP", href: "/publications/about-aip" },
-      { label: "Publication Process", href: "/publications/publication-process" },
+      {
+        label: "Publication Process",
+        href: "/publications/publication-process",
+      },
       { label: "Review Process", href: "/publications/review-process" },
       // { label: "Abstracting & Indexing", href: "/publication/abstracting-indexing" },
     ],
@@ -176,8 +179,7 @@ However, how quickly selected proceedings are available in an A+I service is up 
 - Chemical Abstracts Service (CAS)
 - Astrophysics Data System (ADS)
   `,
-}
-
+};
 
 export const reviewProcess = {
   label: "Review Process",
@@ -220,9 +222,8 @@ export const reviewProcess = {
   - Do the references look appropriate for the topic? Are key papers missing that you would expect to see?
   - Is the distribution of journals and publications cited, and age of the citations, appropriate?
   - Do the references demonstrate that the author is aware of current and key research in their field?
-  `
-}
-
+  `,
+};
 
 export const aboutAIP = {
   label: "About AIP Publishing",
@@ -237,10 +238,8 @@ export const aboutAIP = {
   ### AIP Conference Proceedings
 
   AIP Conference Proceedings contains over 100,000 articles published in over 1700 volumes. This substantial body of scientific literature is testament to our 40-year history as a world-class publishing partner, recognized internationally, and trusted by conference organizers worldwide.
-  `
+  `,
 };
-
-
 
 export const quickLinks = {
   title: "Quick Links",
@@ -436,87 +435,6 @@ export const nationalAdvisoryCommittee = [
   },
 ];
 
-// export const organizingCommittee = [
-//   {
-//     "category": "CHIEF-PATRON",
-//     "members": [
-//       {
-//         "name": "Dr. Sai Prakash Leo Muthu",
-//         "designation": "Chairman & CEO"
-//       },
-
-//     ]
-//   },
-//   {
-//     "category": "PATRON",
-//     "members": [
-//       {
-//         "name": "Dr. J. Raja",
-//         "designation": "Principal"
-//       }
-//     ]
-//   },
-//   {
-//     "category": "CHAIR",
-//     "members": [
-//       {
-//         "name": "Dr. A Rajendra Prasad",
-//         "designation": "Dean - Student Affairs"
-//       }
-//     ]
-//   },
-//   {
-//     "category": "CONVENOR",
-//     "members": [
-//       {
-//         "name": "Dr. B. Vijaya Ramnath",
-//         "designation": "Professor & Head"
-//       }
-//     ]
-//   },
-//   {
-//     "category": "CO-CONVENOR",
-//     "members": [
-//       {
-//         "name": "Dr. V. Ravi Raj",
-//         "designation": "Associate Professor"
-//       },
-//       {
-//         "name": "Dr. R. Bhoopathi",
-//         "designation": "Associate Professor"
-//       },
-//       {
-//         "name": "Dr. C. Parswajinan",
-//         "designation": "Associate Professor"
-//       }
-//     ]
-//   },
-//   {
-//     "category": "ORGANIZING SECRETARY",
-//     "members": [
-//       {
-//         "name": "Mr. S. Krishnaraj",
-//         "designation": "Associate Professor"
-//       },
-//       {
-//         "name": "Mr. R. Senthil Kumar",
-//         "designation": "Associate Professor"
-//       },
-//       {
-//         "name": "Mr. A. Ravinthiran",
-//         "designation": "Assistant Professor"
-//       },
-//       {
-//         "name": "Mr. L. Ravikumar",
-//         "designation": "Assistant Professor"
-//       },
-//       {
-//         "name": "Mr. M. Sudhakar",
-//         "designation": "Assistant Professor"
-//       }
-//     ]
-//   }
-// ]
 
 export const chiefPatronProfiles = [
   {
@@ -524,9 +442,9 @@ export const chiefPatronProfiles = [
     imgAlt: "saiPrakashSirImg",
     name: "Dr. Sai Prakash Leo Muthu",
     designation: "Chairman & CEO",
-    department: "Department of Mechanical Engineering",
-    college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/sai-prakash-leo-muthu/", // Replace with actual LinkedIn URL
+    // department: "Department of Mechanical Engineering",
+    college: "Sairam Institutions",
+    linkedIn: "https://www.linkedin.com/in/sairamceo/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -538,7 +456,7 @@ export const patronProfiles = [
     designation: "Principal",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/j-raja/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/raja-j-32b44164/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -550,7 +468,7 @@ export const chairProfiles = [
     designation: "Dean - Student Affairs",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/a-rajendra-prasad/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/arprasad225/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -562,7 +480,7 @@ export const convenorProfiles = [
     designation: "Professor & Head",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/b-vijaya-ramnath/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/dr-b-vijaya-ramnath-5bb11542/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -583,7 +501,7 @@ export const coConvenorProfiles = [
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/r-bhoopathi/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/dr-r-bhoopathi-m-e-ph-d-038859a4/", // Replace with actual LinkedIn URL
   },
   {
     img: parswajinanImg, // Replace with actual image path
@@ -592,7 +510,7 @@ export const coConvenorProfiles = [
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/c-parswajinan/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/parswajinan-c-163875143/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -604,7 +522,7 @@ export const organizingSecretaryProfiles = [
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/s-krishnaraj/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/krishnaraj-s-94398bb4/", // Replace with actual LinkedIn URL
   },
   {
     img: senthilkumarImg, // Replace with actual image path
@@ -613,7 +531,7 @@ export const organizingSecretaryProfiles = [
     designation: "Associate Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/r-senthil-kumar/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/senthilkumar-mech2020/", // Replace with actual LinkedIn URL
   },
   {
     img: ravindranImg, // Replace with actual image path
@@ -622,7 +540,7 @@ export const organizingSecretaryProfiles = [
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/a-ravinthiran/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/ravinthiran/", // Replace with actual LinkedIn URL
   },
   {
     img: ravikumarImg, // Replace with actual image path
@@ -631,7 +549,7 @@ export const organizingSecretaryProfiles = [
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/l-ravikumar/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/ravi-kumar-l-2518251b0/", // Replace with actual LinkedIn URL
   },
   {
     img: sudhakarImg, // Replace with actual image path
@@ -640,7 +558,7 @@ export const organizingSecretaryProfiles = [
     designation: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
-    linkedIn: "https://www.linkedin.com/in/m-sudhakar/", // Replace with actual LinkedIn URL
+    linkedIn: "https://www.linkedin.com/in/sudhakarmech2013/", // Replace with actual LinkedIn URL
   },
 ];
 
@@ -787,7 +705,7 @@ export const conferenceAgenda1 = [
   },
   {
     timing: "11:00 AM",
-    program: "Panel Discussions",
+    program: "Technical Sessions",
   },
   {
     timing: "01:00 PM",
@@ -795,7 +713,7 @@ export const conferenceAgenda1 = [
   },
   {
     timing: "02:00 PM",
-    program: "Technical Sessions",
+    program: "Panel Discussions",
   },
 ];
 
@@ -810,7 +728,7 @@ export const conferenceAgenda2 = [
   },
   {
     timing: "11:00 AM",
-    program: "Panel Discussions",
+    program: "Technical Sessions",
   },
   {
     timing: "01:00 PM",
@@ -818,7 +736,7 @@ export const conferenceAgenda2 = [
   },
   {
     timing: "02:00 PM",
-    program: "Technical Sessions",
+    program: "Panel Discussions",
   },
 ];
 
