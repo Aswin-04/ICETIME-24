@@ -22,7 +22,7 @@ const Contact = () => {
               <div className="max-w-md bg-slate-100 shadow-lg p-8  flex flex-col gap-2 mb-8 min-h-[30px]">
                 <h5 className="text-xl font-semibold">Convenor</h5>
                 <p className="sm:text-lg">
-                  ICETIME, Department of Mechanical Engineering
+                  ICIMME, Department of Mechanical Engineering
                   <br />
                   Sri Sai Ram Engineering College, Chennai.
                 </p>

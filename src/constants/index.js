@@ -81,7 +81,7 @@ export const aboutDetails = [
     content: `
 This conference primarily provides an interdisciplinary platform for academicians, researchers, industrial experts, and students to exchange new ideas and applications, and to establish research relationships to meet demands at the national and international levels.
 
-**ICETIME'24** aims to promote cooperation in various fields and play an active role in improving academic standards by fostering wide discussions on topics such as:
+**ICIMME'25** aims to promote cooperation in various fields and play an active role in improving academic standards by fostering wide discussions on topics such as:
 
 - New materials
 - Manufacturing processes
