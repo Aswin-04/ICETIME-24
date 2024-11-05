@@ -8,6 +8,10 @@ import subramanianImg from './speakers/subramanian.jpeg'
 import subramanian1Img from './speakers/subramanian-1.png'
 import aravindRaghavendraImg from './speakers/aravind-raghavendra.jpeg'
 import mithunKulkarniImg from './speakers/mithun-kulkarni.jpeg'
+import vijayanImg from './speakers/vijayan.png'
+import samSungTingImg from './speakers/samsung-ting.png'
+import leeChangChuanImg from './speakers/lee-chang-chuan.png'
+
 
 import bhoopathiImg from './staffs/bhoopathi.jpg'
 import hodImg from './staffs/hod.jpg'
@@ -48,4 +52,7 @@ export {
   ceoImg,
   principalImg,
   rpImg,
+  vijayanImg,
+  samSungTingImg,
+  leeChangChuanImg,
 }

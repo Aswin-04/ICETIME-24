@@ -26,6 +26,9 @@ import {
   subramanian1Img,
   aravindRaghavendraImg,
   mithunKulkarniImg,
+  vijayanImg,
+  samSungTingImg,
+  leeChangChuanImg,
 } from "../assets/images/";
 
 export const navItems = [
@@ -601,73 +604,47 @@ export const importantDates = [
 ];
 
 export const conferenceTracks = `
-### ADVANCEMENT IN MECHANICAL ENGINEERING
-- Cyber-Physical Systems in Mechanical Engineering
-- Advanced Control Strategies for Mechanical Systems
-- Aerospace Engineering and Innovations
-- Digital Twin Technologies in Mechanical Engineering
-- Human-Centered Design and Engineering
-- Wearable Technologies and Human Augmentation
-- Artificial Intelligence and Machine Learning in Mechanical Engineering
-- Sustainable Transportation Systems and Infrastructure
-- Industrial IoT and Smart Manufacturing
-- Innovations in HVAC Systems and Indoor Air Quality
-- Marine Engineering and Naval Architecture Innovations
-- Resilient Infrastructure and Disaster Mitigation
-- Sustainable Agriculture and Farming Technologies
+
+## Track-1: Materials Engineering
+
 - Advances in Composite Materials and Structures
-- Cybersecurity Challenges in Mechanical Systems
-- Smart Sensors and Sensor Networks in Mechanical Systems
-- Advances in Sustainable Construction and Building Technologies
-- Innovations in Sustainable Packaging and Logistics
-- Human-Robot Collaboration in Industrial Settings
-- Advances in Bio-inspired Robotics and Biomimetics
-- Digital Transformation in Mechanical Engineering Education
-- Innovations in Disaster Response and Recovery Technologies
-- Advances in Microfluidics and Nanofluidics
-- Innovations in Heat Exchangers and Heat Transfer Systems
-- Cyber-Physical Manufacturing Systems and Industry 4.0
-- Innovations in Energy Harvesting and Energy Conversion
-- Sustainable Mining and Resource Extraction Technologies
-- Advances in Tribology and Surface Engineering
-- Innovations in Space Exploration and Aerospace Technologies
+- Advanced Materials Processes
+- Polymer Nanocomposites and Their Applications
+- Lightweight Materials and Composites
+- Biomaterials
+- Mechanics of Materials
+- Polymers and Alloys
+- Ceramics and Glass
+- Micro/Nanomaterials
+- Materials for Aerospace
+- 3D Materials
+- Magnetic/Non-Magnetic Materials
+- Smart/Intelligent Materials
 
-### MATERIALS & MANUFACTURING
+## Track-2: Manufacturing Engineering
+
+- Manufacturing Systems and Industry 4.0
 - Sustainable Manufacturing and Design Innovations
-- Advanced Materials and Manufacturing Processes
-- Smart Mechanical Engineering Systems
+- Advanced Manufacturing Processes
 - Additive Manufacturing and 3D Printing Technologies
-- Nanotechnology Applications in Mechanical Engineering
-- Materials Engineering for Extreme Environments
 - Advances in Non-Destructive Testing Techniques
-- Smart Cities and Infrastructure Development
-- Innovations in Agricultural Machinery and Equipment
-- Advances in Microelectromechanical Systems (MEMS)
+- Finite Element Method (FEM) in Manufacturing Processes
+- Non-Conventional Manufacturing
+- Design for Manufacturing
 
-### DESIGN & AUTOMATION
-- Robotics and Automation in Mechanical Engineering
-- Innovative Approaches to Vehicle Dynamics
-- Advances in Fluid Mechanics and Aerodynamics
-- Emerging Trends in Robotics and Mechatronics
+## Track-3: Energy Engineering
 
-### ENERGY AND ENVIRONMENT
-- Wind and Water Turbine
-- Solar Energy Power Generation
-- Energy Efficiency and Renewable Energy Technologies
-- Green Technologies and Environmental Sustainability
-- Sustainable Energy Systems and Power Generation
-- Renewable Energy Integration and Grid Management
-- Sustainable Urban Development and Transportation
-- Sustainable Water Management and Treatment Technologies
-- Innovations in Renewable Energy Storage Systems
-- Sustainable Waste Management and Recycling Solutions
-
-### THERMAL SCIENCES
-- Computational Mechanics and Simulation Techniques
-- Innovations in Thermal Management Systems
-- Biologically Inspired Engineering Solutions
-- Computational Intelligence in Mechanical Engineering
+- Innovations in Energy Harvesting and Energy Conversion
+- Solar, Wind, and Renewable Energy Systems
+- Energy Management and Distribution
+- Control Strategies for Green Energy Systems
 - Innovations in Thermal Energy Storage Systems
+- Energy Efficiency and Renewable Energy Technologies
+- Computational Mechanics and Simulation Techniques
+- Fuel Cell Technology
+- Impact of Climate Change on Energy Systems
+- Green Energy Vehicles
+
 `;
 
 export const instructionsToAuthors = `
@@ -759,15 +736,39 @@ export const speakers = [
     college: "Advanced Remanufacturing Technology Center",
     linkedIn: "", // Replace with actual LinkedIn URL
   },
+
   {
-    img: mithunKulkarniImg, // Replace with actual image path
-    imgAlt: "mithunSirImg",
-    name: "Dr. Mithun V Kulkarni",
-    designation: "Senior Lecturer",
-    department: "",
-    college: "Salalah College of Technology, Oman",
+    img: vijayanImg, // Replace with actual image path
+    imgAlt: "vijayanSirImg",
+    name: "Dr. V. Vijayan",
+    designation: "Professor",
+    department: "Department of Mechanical",
+    college: "K. Ramakrishnan College of Technology",
+    specialization: "Design, Optimization, Analysis of Mechanism",
     linkedIn: "", // Replace with actual LinkedIn URL
   },
+  {
+    img: samSungTingImg, // Replace with actual image path
+    imgAlt: "samSungTingSirImg",
+    name: "Dr. Sam Sung Ting",
+    designation: "Associate Professor",
+    department: "Faculty of Chemical Engineering and Technology",
+    college: "Universiti Malaysia Perlis",
+    location: "Malaysia",
+    specialization: "Material Science",
+    linkedIn: "", // Replace with actual LinkedIn URL
+  },
+  {
+    img: leeChangChuanImg, // Replace with actual image path
+    imgAlt: "leeChangChuanSirImg",
+    name: "Dr. Lee Chang Chuan",
+    designation: "Associate Professor",
+    department: "Faculty of Mechanical Engineering and Technology",
+    college: "Universiti Malaysia Perlis",
+    location: "Malaysia",
+    linkedIn: "", // Replace with actual LinkedIn URL
+  },
+
 ];
 
 
