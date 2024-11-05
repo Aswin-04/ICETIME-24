@@ -1,4 +1,4 @@
-import mainPoster from './main-poster-new.jpg'
+import mainPoster from './main-poster-new-1.jpg'
 import clgImg from './clg-img.jpg'
 import departmentImg from './department.jpeg'
 import secMotorSportsImg from './sec-motorsports-logo.jpeg'
