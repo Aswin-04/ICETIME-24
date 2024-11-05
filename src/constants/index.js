@@ -769,3 +769,6 @@ export const speakers = [
     linkedIn: "", // Replace with actual LinkedIn URL
   },
 ];
+
+
+
