@@ -445,7 +445,7 @@ export const patronProfiles = [
     imgAlt: "rajaSirImg",
     name: "Dr. J. Raja",
     designation: "Principal",
-    department: "Department of Mechanical Engineering",
+    // department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
     linkedIn: "https://www.linkedin.com/in/raja-j-32b44164/", // Replace with actual LinkedIn URL
   },
@@ -457,7 +457,7 @@ export const chairProfiles = [
     imgAlt: "rajendraPrasadSirImg",
     name: "Dr. A Rajendra Prasad",
     designation: "Dean - Student Affairs",
-    department: "Department of Mechanical Engineering",
+    // department: "Department of Mechanical Engineering",
     college: "Sri Sai Ram Engineering College",
     linkedIn: "https://www.linkedin.com/in/arprasad225/", // Replace with actual LinkedIn URL
   },
