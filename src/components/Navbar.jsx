@@ -127,15 +127,24 @@ const Navbar = () => {
                       <ul className="py-2 text-sm text-gray-700">
                         {item.items.map((dropdownItem, idx) => (
                           <li key={idx}>
+                          {dropdownItem.isExternal ? (
+                            <a
+                              href={dropdownItem.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block px-4 py-2 hover:bg-gray-100"
+                            >
+                              {dropdownItem.label}
+                            </a>
+                          ) : (
                             <Link
                               to={dropdownItem.href}
                               className="block px-4 py-2 hover:bg-gray-100"
-                              onClick={() => {
-                                handleLinkClick(item.label.toLowerCase()); // Set active link to the parent dropdown label
-                              }}
+                              onClick={() => handleLinkClick(item.label.toLowerCase())}
                             >
                               {dropdownItem.label}
                             </Link>
+                          )}
                           </li>
                         ))}
                       </ul>
@@ -161,7 +170,7 @@ const Navbar = () => {
               }
               onMouseLeave={handleMouseLeave}
               onClick={() => {
-                if(['Committee', 'For Authors', 'Publications'].includes(item.label)) return
+                if(['Committee', 'For Authors', 'Publications', 'History'].includes(item.label)) return
                 handleLinkClick(item.label.toLowerCase())
               } }
             >
@@ -182,13 +191,15 @@ const Navbar = () => {
                 <button className="group">
                   <div
                     className={`${
-                      activeLink === item.label.toLowerCase().replace(/\s+/g, "-") ? "text-cyan-500" : ""
+                      activeLink === item.label.toLowerCase().replace(/\s+/g, "-") && item.label !== "History"
+                       ? "text-cyan-500" 
+                       : ""
                     } flex items-center`}
                   >
                     {item.label}
                     <svg
                       className={`ml-1 mt-[2px] size-5 ${
-                        activeLink === item.label.toLowerCase().replace(/\s+/g, "-")
+                        activeLink === item.label.toLowerCase().replace(/\s+/g, "-") && item.label !== "History"
                           ? "text-cyan-500"
                           : "text-inherit"
                       }`}
@@ -216,13 +227,24 @@ const Navbar = () => {
                   <ul className="py-2 text-sm text-gray-700">
                     {item.items.map((dropdownItem, idx) => (
                       <li key={idx}>
-                        <Link
-                          to={dropdownItem.href}
-                          className="block px-4 py-2 hover:bg-gray-100"
-                          onClick={() => handleLinkClick(item.label.toLowerCase())}
-                        >
-                          {dropdownItem.label}
-                        </Link>
+                          {dropdownItem.isExternal ? (
+                            <a
+                              href={dropdownItem.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block px-4 py-2 hover:bg-gray-100"
+                            >
+                              {dropdownItem.label}
+                            </a>
+                          ) : (
+                            <Link
+                              to={dropdownItem.href}
+                              className="block px-4 py-2 hover:bg-gray-100"
+                              onClick={() => handleLinkClick(item.label.toLowerCase())}
+                            >
+                              {dropdownItem.label}
+                            </Link>
+                          )}
                       </li>
                     ))}
                   </ul>

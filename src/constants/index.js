@@ -31,6 +31,10 @@ import {
   leeChangChuanImg,
 } from "../assets/images/";
 
+import ICAME21 from '../assets/docs/ICAME-21.pdf'
+import ICMMMS16 from '../assets/docs/ICMMMS-16.pdf'
+
+
 export const navItems = [
   { label: "Home", href: "/" },
   {
@@ -69,12 +73,20 @@ export const navItems = [
         href: "/publications/publication-process",
       },
       { label: "Review Process", href: "/publications/review-process" },
-      // { label: "Abstracting & Indexing", href: "/publication/abstracting-indexing" },
     ],
   },
   { label: "Program Schedule", href: "/program-schedule" },
   { label: "Contact", href: "/contact" },
   { label: "Registration", href: "/registration" },
+  {
+    label: "History",
+    dropdown: true,
+    items: [
+      { label: "ICAME-21", href: ICAME21, isExternal: true },
+
+      { label: "ICMMMS-16", href: ICMMMS16, isExternal: true },
+    ],
+  },
 ];
 
 export const aboutDetails = [
