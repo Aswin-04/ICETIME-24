@@ -381,7 +381,7 @@ export const nationalAdvisoryCommittee = [
     name: "Dr. K. Palanikuamr",
     designation: "Principal, Sri Sairam Institute of Technology, Chennai",
   },
-  { name: "Dr. Manoharan N.", designation: "Hindhustan, Chennai" },
+  { name: "Dr. Manoharan N.", designation: "Hindhustan University, Chennai" },
   { name: "Dr. Mohan B.", designation: "Anna University, Chennai" },
   { name: "Dr. Moorthy B.S.", designation: "IIT, Chennai" },
   { name: "Dr. Murugan S.", designation: "NIT, Rourkela" },
