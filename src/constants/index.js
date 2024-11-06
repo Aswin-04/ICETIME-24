@@ -666,7 +666,7 @@ export const conferenceAgenda1 = [
   },
   {
     timing: "10:00 AM",
-    program: "Keynote Speech",
+    program: "Keynote Speech (Track 1, 2, 3)",
   },
   {
     timing: "11:00 AM",
@@ -689,7 +689,7 @@ export const conferenceAgenda2 = [
   },
   {
     timing: "10:00 AM",
-    program: "Keynote Speech",
+    program: "Keynote Speech (Track 4, 5)",
   },
   {
     timing: "11:00 AM",
