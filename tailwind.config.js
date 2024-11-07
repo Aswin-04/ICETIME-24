@@ -94,6 +94,7 @@ export default {
       screens: {
         "xxs": "375px",
         "xs": "425px",
+        "ns": '1400px',
         'wide': '1440px'
       }
        

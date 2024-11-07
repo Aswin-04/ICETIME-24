@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 left-0 w-full bg-bgd border border-gray-200 z-50">
       {/* Mobile Screen */}
-      <div className="lg:hidden py-6 px-4 flex justify-between items-center">
+      <div className="ns:hidden py-6 px-4 flex justify-between items-center">
         <div className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">ICIMME&apos;25</div>
         <button
           onClick={toggleMenu}
@@ -158,7 +158,7 @@ const Navbar = () => {
       </div>
 
       {/* Large Screen */}
-      <div className="max-lg:hidden mx-auto max-w-screen-wide p-6 flex justify-between">
+      <div className="max-ns:hidden mx-auto max-w-[1600px] p-6 flex justify-between">
       <div className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">ICIMME&apos;25</div>
         <ul className="flex items-center gap-8 font-medium">
           {navItems.map((item, index) => (
