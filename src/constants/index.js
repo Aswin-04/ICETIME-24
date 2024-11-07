@@ -79,7 +79,7 @@ export const navItems = [
   { label: "Contact", href: "/contact" },
   { label: "Registration", href: "/registration" },
   {
-    label: "History",
+    label: "Previous Conferences",
     dropdown: true,
     items: [
       { label: "ICAME-21", href: ICAME21, isExternal: true },
@@ -98,12 +98,10 @@ This conference primarily provides an interdisciplinary platform for academician
 
 **ICIMME'25** aims to promote cooperation in various fields and play an active role in improving academic standards by fostering wide discussions on topics such as:
 
-- New materials
-- Manufacturing processes
-- Automation
-- Energy and environment
-- Industrial engineering
-- Thermal sciences like CFD and alternative fuels
+- Materials Engineering
+- Manufacturing Engineering
+- Energy Engineering
+
 
 A panel discussion will be organized to cover recent trends in mechanical sciences as part of the conference.
 
@@ -351,6 +349,10 @@ export const internationalAdvisoryCommittee = [
 
 export const nationalAdvisoryCommittee = [
   {
+    name: "Dr. K. Palanikuamr",
+    designation: "Principal, Sri Sairam Institute of Technology, Chennai",
+  },
+  {
     name: "Dr. Anand Goyal",
     designation: "Vice-Chancellor, A.P.Goyal Shimla University, Shimla",
   },
@@ -389,11 +391,7 @@ export const nationalAdvisoryCommittee = [
     name: "Mr. V. Balajikrishna",
     designation: "Vice-President, Brakes India Pvt. Ltd., Chennai",
   },
-  {
-    name: "Dr. K. Palanikuamr",
-    designation: "Principal, Sri Sairam Institute of Technology, Chennai",
-  },
-  { name: "Dr. Manoharan N.", designation: "Hindhustan University, Chennai" },
+  { name: "Dr. Manoharan N.", designation: "Hindustan University, Chennai" },
   { name: "Dr. Mohan B.", designation: "Anna University, Chennai" },
   { name: "Dr. Moorthy B.S.", designation: "IIT, Chennai" },
   { name: "Dr. Murugan S.", designation: "NIT, Rourkela" },
@@ -771,5 +769,19 @@ export const speakers = [
 
 ];
 
+
+export const registrationGuidelines = `
+### Registration Guidelines
+
+1. **Registration should be completed only after the paper has been selected.**
+2. Click the registration link, fill out the form, upload proof of payment, and submit before the specified deadline.
+3. The registration fee includes:
+   - Conference Kit
+   - Refreshments and Lunch for both days
+   - Participation Certificate
+4. Please ensure that all details are accurate before submitting.
+5. Registration details are provided below for reference.
+6. **Note:** Early registration is encouraged to confirm your participation and ensure timely processing of materials.
+`;
 
 
