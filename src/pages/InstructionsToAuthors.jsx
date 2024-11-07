@@ -1,5 +1,4 @@
 import ReactMarkdown from "react-markdown";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MainPoster from "../components/MainPoster";
