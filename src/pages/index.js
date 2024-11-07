@@ -12,6 +12,7 @@ import TechnicalCommittee from "./TechnicalCommittee";
 import InstructionsToAuthors from "./InstructionsToAuthors"
 import AboutAIP from "./AboutAIP";
 import PublicationProcess from "./PublicationProcess";
+import AbstractSubmission from "./AbstractSubmission";
 
 
 export {
@@ -29,4 +30,5 @@ export {
   TechnicalCommittee,
   AboutAIP,
   PublicationProcess,
+  AbstractSubmission,
 }

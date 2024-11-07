@@ -15,6 +15,7 @@ import  {
   TechnicalCommittee,
   AboutAIP,
   PublicationProcess,
+  AbstractSubmission
 } from './pages'
 
 const routes = [
@@ -37,6 +38,10 @@ const routes = [
   {
     path: "/for-authors/call-for-papers",
     element: <CallForPapers />,
+  },
+  {
+    path: "/for-authors/abstract-submission",
+    element: <AbstractSubmission />,
   },
   {
     path: "/for-authors/important-dates",
