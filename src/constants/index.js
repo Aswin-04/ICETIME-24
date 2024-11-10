@@ -609,11 +609,11 @@ export const conferenceTracks = `
 ## Track-3: Energy Engineering
 
 - Innovations in Energy Harvesting and Energy Conversion
-- Solar, Wind, and Renewable Energy Systems
+- Renewable Energy Systems
 - Energy Management and Distribution
 - Control Strategies for Green Energy Systems
 - Innovations in Thermal Energy Storage Systems
-- Energy Efficiency and Renewable Energy Technologies
+- Energy Efficiency in Renewable Energy Technologies
 - Computational Mechanics and Simulation Techniques
 - Fuel Cell Technology
 - Impact of Climate Change on Energy Systems
