@@ -687,16 +687,18 @@ export const speakers = [
 export const registrationGuidelines = `
 ### Registration Guidelines
 
-1. **Registration should be completed only after the paper has been selected.**
-2. Click the registration link, fill out the form, upload proof of payment, and submit before the specified deadline.
-3. The registration fee includes:
+- **Registration should be completed only after the paper has been selected and assigned with a paper ID.**
+- Click the registration link, fill out the form, upload proof of payment, and submit before the specified deadline.
+- The registration fee includes:
    - Conference Kit
-   - Refreshments and Lunch for both days
+   - Refreshments and lunch for both days
    - Participation Certificate
-4. Please ensure that all details are accurate before submitting.
-5. Registration details are provided below for reference.
-6. **Note:** Early registration is encouraged to confirm your participation and ensure timely processing of materials.
+   - Access to all plenary and parallel sessions
+- Please ensure that all details are accurate before submitting.
+- Registration details are provided below.
+- **Note:** Early registration is encouraged to confirm your participation and ensure timely processing of materials.
 `;
+
 
 export const abstractGuidelines = `
 ### Abstract Submission Guidelines
