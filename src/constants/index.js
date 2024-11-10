@@ -576,28 +576,14 @@ export const conferenceTracks = `
 `;
 
 export const instructionsToAuthors = `
-
-- Papers submitted must not have been previously published in any other forum.
-- Authors willing to present their paper at the conference should submit the full-length paper in **.doc** format.
-- Papers should not exceed 6 pages, following the **IEEE single-column format**.
-- The paper should be uploaded to the website on or before the proposed date.
+- Papers submitted are not to be previously published in any other forum.
 - All submitted papers will be scrutinized by an expert committee.
-- Authors of selected papers will be notified via email only.
+- The authors of selected papers will be intimated through e-mail only.
+- Authors willing to present their paper at the conference should submit the full-length paper in **.doc** format (AIP format).
+- The paper should be uploaded to the website on or before the proposed date.
 - Presentations at the conference will be conducted **offline**.
-- Abstracts of accepted papers will be published in the conference proceedings.
-- The full-length accepted papers will be included in **e-proceedings** as a soft copy.
-- Papers submitted after the deadline may not be included in the conference proceedings.
-- The paper registered for the conference must be presented by one of the registered authors.
-- Certificates of participation/presentation will be issued to the registered delegates/authors attending the conference.
-
----
-
-### Journal Publication
-
-After a careful refereeing process, following the journal norms, selected papers will be recommended for publication in **Scopus-indexed journals**.  
-
-(Journal names will be updated soon).
 `;
+
 
 export const conferenceAgenda1 = [
   {
