@@ -126,17 +126,16 @@ AIP Conference Proceedings contains over 100,000 articles published in over 1700
     id: 1,
     title: "About the Institution",
     content: `
-
-**Sri Sai Ram Engineering College**, a BIS/EOMS ISO 21001:2018 certified Institution, was established by Founder Chairman MJF. Ln. Leo Muthu in 1995. All the eligible Engineering programs have been accredited by the National Board of Accreditation (NBA) and also accredited by NAAC with an ‘A+’ grade. The College is situated in a sylvan environment and offers sixteen UG courses and six PG courses in Engineering, Technology, and Management, with a strength of over 8000 students.
-
-The Institution has grown and is recognized among the reputed Institutions in Tamil Nadu in a short span of time, thanks to the highest degree of commitment and enthusiasm from the staff and management. With the motto, **“Prosperity through quality education,”** the institution disseminates knowledge and entrepreneurship skills among the students and strives to achieve excellence in the fields of Technical, Computer, and Management education. The College is among the top Colleges in Tamil Nadu.
-
-In the NIRF ranking among engineering Colleges in India, Sri Sairam Engineering College, Chennai, has been positioned since 2017. The College has adopted the **‘Sustainable Development Goals (SDG)’** in all its activities to create awareness and build a sense of responsibility towards society in the minds of budding engineers, with the aim of building a better world. The College has highly qualified and dedicated Professors guiding various socially relevant projects funded through state and central government agencies like DST, AICTE, DRDO, CSIR, and ME, and also publishing research outputs in various national and international journals.
-
-`,
+  **Sri Sai Ram Engineering College**, a BIS/EOMS ISO 21001:2018 certified Institution, was established by Founder MJF. Ln. Leo Muthu in 1995. The college is accredited by NAAC with an ‘A+’ grade, and all eligible Engineering programs are accredited by the National Board of Accreditation (NBA). Situated in a sylvan environment, the College offers sixteen UG courses and six PG courses in Engineering, Technology, and Management, serving a student body of over 6000.
+  
+  Recognized among the reputed institutions in Tamil Nadu, the College's growth and reputation reflect the commitment and enthusiasm of its staff and management. Guided by the motto, **“Prosperity through quality education,”** the institution imparts knowledge and entrepreneurship skills, striving for excellence in Technical, Computer, and Management education. Sri Sai Ram Engineering College is consistently ranked among the top colleges in Tamil Nadu and has been listed in the NIRF since 2017.
+  
+  The College has also integrated the **‘Sustainable Development Goals (SDG)’** into its activities to foster social responsibility and environmental awareness in its students, aspiring to contribute to a better world. With a team of highly qualified and dedicated Professors, the College supports various socially relevant projects funded by state and central government agencies, including DST, AICTE, DRDO, CSIR, MOE, and UBA, and publishes research in national and international journals.
+  `,
     img: clgImg,
     imgAlt: "clgImg",
-  },
+  }
+  
 
   {
     id: 2,
