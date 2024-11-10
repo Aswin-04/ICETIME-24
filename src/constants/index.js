@@ -134,24 +134,24 @@ AIP Conference Proceedings contains over 100,000 articles published in over 1700
   `,
     img: clgImg,
     imgAlt: "clgImg",
-  }
+  },
   
-
   {
     id: 2,
     title: "About the Department",
     content: `
-
-The Department of Mechanical Engineering was established in the year 1995. It has excellent infrastructural facilities on par with the latest developments in technologies. The department is accredited by the National Board of Accreditation and is backed by professionally experienced and highly qualified faculty and supporting staff. The Department received the **‘Best Industry Linked AICTE-CII Award’** in 2015 and 2020.
-
-The Master of Engineering (M.E) - CAD/CAM program focuses on preparing graduate students in the multi-disciplinary profession of computer-aided design and manufacturing for the challenges and opportunities that abound in modern technology and society. The Department has been recognized as a Research Centre by Anna University and has several research centers, including the Material Research Centre, Clean Energy Centre, and Reverse Engineering & CAE Centre.
-
-The Department has signed MoUs with organizations like TIEMA, AIEMA, COINDIA, and many leading industries. It also has professional societies such as SAE, ISTE, IEI, ISHRAE, IWS, IEEE, and QCFI. Our students have bagged awards from SAE events like M-BAJA, E-BAJA, SUPRA, TIFAN, Effi-Cycle, Bicycle, and other events like Solaris, Go-Kart, E-bike, and Dirt Bike. The department established a Centre of Excellence (COE) in collaboration with Delphi-TVS Technologies Ltd. to train students in advanced fuel injection systems.
-
-`,
+  
+  The Department of Mechanical Engineering was established in the year 1995. It has excellent infrastructural facilities on par with the latest developments in technologies. The department is accredited by the National Board of Accreditation since 2007 and is supported by professionally experienced and highly qualified faculty and staff. The Department received the **‘Best Industry Linked AICTE-CII Award’** in 2015 and 2020.
+  
+  The Master of Engineering (M.E) - CAD/CAM program is designed to prepare graduate students in the multi-disciplinary fields of computer-aided design and manufacturing, addressing the challenges and opportunities presented by modern technology and society. The Department has been recognized as a Research Centre by Anna University and hosts several centers of excellence, including Material Research, Clean Energy, Reverse Engineering & CAE.
+  
+  The Department has signed MoUs with industry associations such as TIEMA, AIEMA, COINDIA, and other leading industries. It also supports professional societies, including SAE, ISTE, IEI, ISHRAE, IWS, IEEE, and QCFI. Our students have won awards in SAE events like M-BAJA, E-BAJA, SUPRA, TIFAN, Effi-Cycle, and in other competitions like Solaris, Go-Kart, E-bike, and Dirt Bike. Delphi TVS has established a Centre of Excellence within the department, advancing training in fuel injection systems.
+  
+  `,
     img: departmentImg,
     imgAlt: "departmentImg",
   },
+  
 
   {
     id: 3,
