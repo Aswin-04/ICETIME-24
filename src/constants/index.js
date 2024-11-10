@@ -701,9 +701,13 @@ export const registrationGuidelines = `
 export const abstractGuidelines = `
 ### Abstract Submission Guidelines
 
-- Authors are requested to prepare their abstracts using the provided template.
+- Authors are requested to prepare abstracts according to the provided template.
 - [**Click here**](/ICIMME25_Abstract_Template.docx) to download the abstract template.
 - Selected abstracts will be assigned unique paper IDs.
 - Authors of selected abstracts will be invited to submit a full paper for peer review.
+- The abstract of accepted papers will be published in the proceedings of the conference.
+- Papers received after the deadline will not be included in the conference proceedings.
+- The paper registered for the conference must be presented by one of the registered authors.
+- Certificates of participation/presentation will be issued to the registered delegates/authors attending the conference.
 - **Click below** to submit your abstract.
 `;
