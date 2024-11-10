@@ -570,41 +570,33 @@ export const organizingSecretaryProfiles = [
 
 export const importantDates = [
   {
-    deadline: "Last Date to Submit Abstract",
-    date: "20th November 2024",
+    deadline: "Last date for submitting Abstract",
+    date: "22nd November 2024",
     icon: DriveFolderUploadIcon,
   },
   {
-    deadline: "Abstract Selection Intimation",
-    date: "25th November 2024",
+    deadline: "Notification of acceptance of Abstract",
+    date: "27th November 2024",
     icon: CheckCircleOutlineIcon,
   },
   {
-    deadline: "Last Date to Submit Full Paper",
-    date: "15th December 2024",
+    deadline: "Last date for submitting full length paper",
+    date: "10th December 2024",
     icon: DescriptionIcon,
   },
   {
-    deadline: "Full Paper Selection Intimation",
-    date: "25th December 2024",
+    deadline: "Notification of acceptance of full length paper",
+    date: "20th December 2024",
     icon: CheckCircleOutlineIcon,
   },
   {
-    deadline: "Payment Last Date",
-    date: "28th December 2024",
+    deadline: "Last date for registration",
+    date: "6th January 2025",
     icon: CreditCardIcon,
-  },
-  {
-    deadline: "Registration Commences",
-    date: "28th December 2024",
-    icon: EventAvailableIcon,
-  },
-  {
-    deadline: "Registration Ends",
-    date: "12th January 2025",
-    icon: AccessTimeIcon,
-  },
+  }
 ];
+
+
 
 export const conferenceTracks = `
 
