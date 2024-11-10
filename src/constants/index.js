@@ -31,9 +31,8 @@ import {
   leeChangChuanImg,
 } from "../assets/images/";
 
-import ICAME21 from '../assets/docs/ICAME-21.pdf'
-import ICMMMS16 from '../assets/docs/ICMMMS-16.pdf'
-
+import ICAME21 from "../assets/docs/ICAME-21.pdf";
+import ICMMMS16 from "../assets/docs/ICMMMS-16.pdf";
 
 export const navItems = [
   { label: "Home", href: "/" },
@@ -55,7 +54,10 @@ export const navItems = [
     dropdown: true,
     items: [
       { label: "Call for Papers", href: "/for-authors/call-for-papers" },
-      { label: "Abstract Submission", href: "/for-authors/abstract-submission"},
+      {
+        label: "Abstract Submission",
+        href: "/for-authors/abstract-submission",
+      },
       { label: "Important Dates", href: "/for-authors/important-dates" },
       {
         label: "Instructions to Authors",
@@ -94,30 +96,12 @@ export const aboutDetails = [
     id: 3,
     title: "About the Conference",
     content: `
-This conference primarily provides an interdisciplinary platform for academicians, researchers, industrial experts, and students to exchange new ideas and applications, and to establish research relationships to meet demands at the national and international levels.
-
-**ICIMME'25** aims to promote cooperation in various fields and play an active role in improving academic standards by fostering wide discussions on topics such as:
-
-- Materials Engineering
-- Manufacturing Engineering
-- Energy Engineering
-
-
-A panel discussion will be organized to cover recent trends in mechanical sciences as part of the conference.
-
-Keynote lectures will focus on advanced manufacturing technology, industrial engineering, robotics, and thermal sciences throughout the event.
-
----
-
-## Publications of the Proceedings
-
-The proceedings of this conference will be published in the ****AIP Conference Proceedings****.
-
-### AIP Conference Proceedings
-
-AIP Conference Proceedings contains over 100,000 articles published in over 1700 volumes. This substantial body of scientific literature is testament to our 40-year history as a world-class publishing partner, recognized internationally, and trusted by conference organizers worldwide.
-
-`,
+  
+  This conference mainly provides an interdisciplinary platform for academicians, Researchers, Industrial Experts, and also students to exchange their new ideas and application to establish research relations to meet the demand on National and International level. **ICIMME’25** aims to promote cooperation in various areas and an active role in improving academic standards by implementing a wide discussion on new Materials Engineering, Manufacturing Engineering & Energy Engineering.
+  
+  A panel discussion formed in the recent trends in Mechanical Sciences as a part of the conference in continued with keynote lecture on advanced manufacturing technology, Industrial Engineering, Robotics and Thermal Sciences also focused during conference.
+  
+  `,
     img: "",
     imgAlt: "",
   },
@@ -135,7 +119,7 @@ AIP Conference Proceedings contains over 100,000 articles published in over 1700
     img: clgImg,
     imgAlt: "clgImg",
   },
-  
+
   {
     id: 2,
     title: "About the Department",
@@ -151,7 +135,6 @@ AIP Conference Proceedings contains over 100,000 articles published in over 1700
     img: departmentImg,
     imgAlt: "departmentImg",
   },
-  
 
   {
     id: 3,
@@ -261,7 +244,7 @@ export const quickLinks = {
     { label: "Organizing Committee", href: "/committee/organizing-committee" },
     { label: "Speakers", href: "/speakers" },
     { label: "Call for Papers", href: "/for-authors/call-for-papers" },
-    { label: "Abstract Submission", href: "/for-authors/abstract-submission"},
+    { label: "Abstract Submission", href: "/for-authors/abstract-submission" },
     { label: "Important Dates", href: "/for-authors/important-dates" },
     {
       label: "Instructions to Authors",
@@ -440,7 +423,6 @@ export const nationalAdvisoryCommittee = [
   },
 ];
 
-
 export const chiefPatronProfiles = [
   {
     img: ceoImg, // Replace with actual image path
@@ -592,10 +574,8 @@ export const importantDates = [
     deadline: "Last date for registration",
     date: "6th January 2025",
     icon: CreditCardIcon,
-  }
+  },
 ];
-
-
 
 export const conferenceTracks = `
 
@@ -762,9 +742,7 @@ export const speakers = [
     location: "Malaysia",
     linkedIn: "", // Replace with actual LinkedIn URL
   },
-
 ];
-
 
 export const registrationGuidelines = `
 ### Registration Guidelines
@@ -780,7 +758,6 @@ export const registrationGuidelines = `
 6. **Note:** Early registration is encouraged to confirm your participation and ensure timely processing of materials.
 `;
 
-
 export const abstractGuidelines = `
 ### Abstract Submission Guidelines
 
@@ -790,6 +767,3 @@ export const abstractGuidelines = `
 - Authors of selected abstracts will be invited to submit a full paper for peer review.
 - **Click below** to submit your abstract.
 `;
-
-
-
