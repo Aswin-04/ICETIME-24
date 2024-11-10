@@ -335,52 +335,26 @@ export const internationalAdvisoryCommittee = [
 ];
 
 export const nationalAdvisoryCommittee = [
-  {
-    name: "Dr. K. Palanikuamr",
-    designation: "Principal, Sri Sairam Institute of Technology, Chennai",
-  },
-  {
-    name: "Dr. Anand Goyal",
-    designation: "Vice-Chancellor, A.P.Goyal Shimla University, Shimla",
-  },
-  {
-    name: "Dr. Atmananad",
-    designation: "Director, National Institute of Ocean Technology, Chennai",
-  },
-  {
-    name: "Dr. Azad",
-    designation:
-      "Director, Centre for International Affairs, Anna University, Chennai",
-  },
-  {
-    name: "Prof. B.V. Babu",
-    designation: "Vice Chancellor, Galgotia University, Noida",
-  },
-
+  { name: "Dr. Anand Goyal", designation: "Vice-Chancellor, A.P.Goyal Shimla University, Shimla" },
+  { name: "Dr. Atmananad", designation: "Director, National Institute of Ocean Technology, Chennai" },
+  { name: "Dr. Azad", designation: "Director, Centre for International Affairs, Anna University, Chennai" },
+  { name: "Prof. B.V. Babu", designation: "Vice Chancellor, Galgotia University, Noida" },
   { name: "Dr. Dhanalakshmi V.", designation: "TCE, Madurai" },
   { name: "Dr. Gajendran S.", designation: "Anna University, Chennai" },
-  {
-    name: "Dr. Gobinath Chintala",
-    designation: "Alliance University, Karnataka",
-  },
-  { name: "Dr. Jayavel S.", designation: "IITD & M, Chennai" },
+  { name: "Dr. Gobinath Chintala", designation: "Alliance University, Karnataka" },
+  { name: "Dr. Jayavel S.", designation: "IIITD & M, Kanchipuram" },
   { name: "Dr. Jeyapaul R.", designation: "NIT, Trichy" },
   { name: "Dr. Jose Mathew", designation: "NIT Calicut" },
-  { name: "Dr. Kalichelvan K.", designation: "Anna University, Chennai" },
-  { name: "Dr. Thanigaiarasu S.", designation: "Anna University, Chennai" },
+  { name: "Dr. A. Suresh Babu", designation: "Anna University, Chennai" },
+  { name: "Dr. M. Om Kumar", designation: "Anna University, Chennai" },
   { name: "Dr. Kesavan R.", designation: "Anna University, Chennai" },
   { name: "Dr. Lenin Babu", designation: "VIT, Chennai" },
-  {
-    name: "Dr. Loganathan M.",
-    designation: "Annamalai University, Chidambaram",
-  },
-  {
-    name: "Mr. V. Balajikrishna",
-    designation: "Vice-President, Brakes India Pvt. Ltd., Chennai",
-  },
+  { name: "Dr. Loganathan M.", designation: "Annamalai University, Chidambaram" },
+  { name: "Mr. V. Balajikrishna", designation: "Vice-President, Brakes India Pvt. Ltd., Chennai" },
+  { name: "Dr. K. Palanikuamr", designation: "Principal, Sri Sairam Institute of Technology, Chennai" },
   { name: "Dr. Manoharan N.", designation: "Hindustan University, Chennai" },
   { name: "Dr. Mohan B.", designation: "Anna University, Chennai" },
-  { name: "Dr. Moorthy B.S.", designation: "IIT, Chennai" },
+  { name: "Dr. Sathyan Subbiah", designation: "IIT, Chennai" },
   { name: "Dr. Murugan S.", designation: "NIT, Rourkela" },
   { name: "Dr. Narendiran T.T.", designation: "IIT, Chennai" },
   { name: "Dr. T. Sekar", designation: "GCT, Coimbatore" },
@@ -388,40 +362,20 @@ export const nationalAdvisoryCommittee = [
   { name: "Dr. Rajan T.P. D.", designation: "NIIST, Trivandrum" },
   { name: "Dr. Rajaram", designation: "SRM University, Chennai" },
   { name: "Dr. Rajesekaran S.", designation: "SRM University, Chennai" },
-  {
-    name: "Dr. Rajesh R.",
-    designation: "Rohini Engineering College, Kanyakumari",
-  },
-  { name: "Dr. S. Radhakrishnan", designation: "Director, R & D MIT, Pune" },
-  { name: "Dr. Ganesh Sundaraman", designation: "IIT, Chennai" },
-  {
-    name: "Dr. S.K. Kautish",
-    designation:
-      "Principal, North West Engineering & Technology, Moga (Punjab)",
-  },
+  { name: "Dr. Rajesh R.", designation: "Rohini Engineering College, Kanyakumari" },
   { name: "Dr. Senthil R.", designation: "Anna University, Villupuram" },
   { name: "Dr. Senthilvelan S.", designation: "IIT, Guwahati" },
   { name: "Dr. Senthilvelan T.", designation: "PEC, Pondicherry" },
-  {
-    name: "Dr. Udaya Kumar M.",
-    designation: "Amrita University, Kollam",
-  },
+  { name: "Dr. Udaya Kumar M.", designation: "Amrita University, Kollam" },
+  { name: "Dr. S Kathiresan", designation: "Anna University, Chennai" },
   { name: "Dr. Vijaya Raghavan L.", designation: "IIT, Chennai" },
   { name: "Dr. Vijaya Kumar S.", designation: "Anna University, Chennai" },
-  { name: "Shri Banerjee A.J.", designation: "CMERI, Durgapur" },
   { name: "Dr. Krishnakumar S.", designation: "Senior Officer, DRDO" },
   { name: "Dr. J. Jayaprakash", designation: "Professor, MGR University" },
-  {
-    name: "Prof. Dr. P.K. Prasad",
-    designation:
-      "Principal, Bengal College of Engineering & Technology, Durgapur, West Bengal",
-  },
-  {
-    name: "Dr. Pradeep Jaevandhiya",
-    designation:
-      "Principal, Pankaj Laddhad Institute of Technology and Management Studies, Buldana",
-  },
+  { name: "Dr. T. Jaya Kumar", designation: "Professor, AMET University, Chennai" },
+  { name: "Dr. Prakash", designation: "Professor, Sathyabama University, Chennai" }
 ];
+
 
 export const chiefPatronProfiles = [
   {
