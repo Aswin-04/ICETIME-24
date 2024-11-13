@@ -1,4 +1,7 @@
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+
 
 const AboutDetailsRenderer = ({ img, imgAlt, content }) => {
   return (
@@ -18,7 +21,10 @@ const AboutDetailsRenderer = ({ img, imgAlt, content }) => {
 
           <article className="prose text-black max-xs:text-sm max-xs:leading-6 mx-auto"
           >
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+            >{content}</ReactMarkdown>
           </article>
         </div>
       )}

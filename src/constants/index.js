@@ -100,6 +100,8 @@ export const aboutDetails = [
   This conference mainly provides an interdisciplinary platform for academicians, Researchers, Industrial Experts, and also students to exchange their new ideas and application to establish research relations to meet the demand on National and International level. **ICIMME’25** aims to promote cooperation in various areas and an active role in improving academic standards by implementing a wide discussion on new Materials Engineering, Manufacturing Engineering & Energy Engineering.
   
   A panel discussion formed in the recent trends in Mechanical Sciences as a part of the conference in continued with keynote lecture on advanced manufacturing technology, Industrial Engineering, Robotics and Thermal Sciences also focused during conference.
+
+  <a href="/ICIMME-Brochure.pdf" download="ICIMME-Brochure.pdf">Click here to download the conference brochure</a>
   
   `,
     img: "",
