@@ -33,7 +33,7 @@ const OrganizingCommittee = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-center font-bold text-xl md:text-2xl uppercase">Chair</h4>
+          <h4 className="text-center font-bold text-xl md:text-2xl uppercase">Organizing Chair</h4>
           <div className="max-container flex gap-x-24 gap-y-8 flex-wrap justify-center">
             {chairProfiles.map((profile) => (
               <ProfileCard2 profile={profile} key={profile.name} />
