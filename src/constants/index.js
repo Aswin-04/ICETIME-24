@@ -114,7 +114,7 @@ export const aboutDetails = [
   
   Recognized among the reputed institutions in Tamil Nadu, the College's growth and reputation reflect the commitment and enthusiasm of its staff and management. Guided by the motto, **“Prosperity through quality education,”** the institution imparts knowledge and entrepreneurship skills, striving for excellence in Technical, Computer, and Management education. Sri Sai Ram Engineering College is consistently ranked among the top colleges in Tamil Nadu and has been listed in the NIRF since 2017.
   
-  The College has also integrated the **‘Sustainable Development Goals (SDG)’** into its activities to foster social responsibility and environmental awareness in its students, aspiring to contribute to a better world. With a team of highly qualified and dedicated Professors, the College supports various socially relevant projects funded by state and central government agencies, including DST, AICTE, DRDO, CSIR, MOE, and UBA, and publishes research in national and international journals.
+  The College has also integrated the **‘Sustainable Development Goals (SDG)’** into its activities to foster social responsibility and environmental awareness in its students, aspiring to contribute to a better world. With a team of highly qualified and dedicated Professors, the College supports various socially relevant projects funded by state and central government agencies, including DST, AICTE, DRDO, CSIR, MoE, and UBA, and publishing research outputs in various national and international journals.
   `,
     img: clgImg,
     imgAlt: "clgImg",
@@ -129,7 +129,7 @@ export const aboutDetails = [
   
   The Master of Engineering (M.E) - CAD/CAM program is designed to prepare graduate students in the multi-disciplinary fields of computer-aided design and manufacturing, addressing the challenges and opportunities presented by modern technology and society. The Department has been recognized as a Research Centre by Anna University and hosts several centers of excellence, including Material Research, Clean Energy, Reverse Engineering & CAE.
   
-  The Department has signed MoUs with industry associations such as TIEMA, AIEMA, COINDIA, and other leading industries. It also supports professional societies, including SAE, ISTE, IEI, ISHRAE, IWS, IEEE, and QCFI. Our students have won awards in SAE events like M-BAJA, E-BAJA, SUPRA, TIFAN, Effi-Cycle, and in other competitions like Solaris, Go-Kart, E-bike, and Dirt Bike. Delphi TVS has established a Centre of Excellence within the department, advancing training in fuel injection systems.
+  The Department has signed MoUs with industry associations such as TIEMA, AIEMA, COINDIA, and other leading industries. It also supports professional societies, including SAE, ISTE, IEI, ISHRAE, IWS, IEEE, and QCFI. Our students have won awards in SAE events like M-BAJA, E-BAJA, SUPRA, TIFAN, Effi-Cycle, and in other competitions like Solaris, Go-Kart, E-bike, and Dirt Bike. Delphi TVS Technologies Ltd, Chennai has established a Centre of Excellence within the department, advances in fuel injection systems inside the department.
   
   `,
     img: departmentImg,
@@ -576,11 +576,10 @@ export const conferenceTracks = `
 `;
 
 export const instructionsToAuthors = `
-- Papers submitted are not to be previously published in any other forum.
+- Papers submitted are not being previously published in any other forum.
 - All submitted papers will be scrutinized by an expert committee.
 - The authors of selected papers will be intimated through e-mail only.
 - Authors willing to present their paper at the conference should submit the full-length paper in **.doc** format (AIP format).
-- The paper should be uploaded to the website on or before the proposed date.
 - Presentations at the conference will be conducted **offline**.
 `;
 

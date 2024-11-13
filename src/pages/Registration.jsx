@@ -14,15 +14,16 @@ const Registration = () => {
       <MainPoster />
       <div className="px-4 my-20">
         <Heading title={"Registration"}></Heading>
-          <div className="flex justify-center">
-            <RegistrationFeeTable />
-          </div>
           <div className="bg-slate-100">
-            <div className="max-container mt-20 mb-20 lg:mb-32 py-10 flex justify-center">
+            <div className="max-container mb-10 py-10 flex justify-center">
               <div className="px-8 prose  text-black max-xs:text-sm max-xs:leading-6 ">
                 <ReactMarkdown>{registrationGuidelines}</ReactMarkdown>
               </div>
             </div>
+          </div>
+          <div className="flex flex-col justify-center items-center mb-20 gap-4">
+            <div className="font-bold text-xl">Registration Fee</div>
+            <RegistrationFeeTable />
           </div>
           <div className="text-2xl font-semibold text-center mb-10">
             Payments can be done via NEFT(Net Banking /Google Pay/ PhonePe)
