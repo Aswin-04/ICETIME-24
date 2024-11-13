@@ -75,7 +75,7 @@ const Footer = () => {
             </li>
             <li className="mb-1 pl-[2px] flex items-center gap-x-2 text-slate-700 hover:text-slate-950 transition duration-250 ease-in-out">
               <Mail size={22} />
-              <p className="pl-[2px]">icetime@sairam.edu.in</p>
+              <p className="pl-[2px]">icimme@sairam.edu.in</p>
             </li>
           </ul>
         </div>

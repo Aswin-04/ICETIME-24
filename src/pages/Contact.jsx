@@ -22,7 +22,7 @@ const Contact = () => {
               <div className="max-w-md bg-slate-100 shadow-lg p-8  flex flex-col gap-2 mb-8 min-h-[30px]">
                 <h5 className="text-xl font-semibold">Convenor</h5>
                 <p className="sm:text-lg">
-                  ICIMME, Department of Mechanical Engineering
+                  ICIMME'25, Department of Mechanical Engineering
                   <br />
                   Sri Sai Ram Engineering College, Chennai.
                 </p>
@@ -35,11 +35,27 @@ const Contact = () => {
                   +91 9486784878 <br /> (Dr. R. Bhoopathi)
                 </p>
               </div>
+              <div className="max-w-md flex  items-center gap-4 bg-slate-100 shadow-lg p-8 min-h-[30px] mb-8">
+                <div className=" text-sky-500">
+                  <PhoneIcon sx={{ fontSize: 32 }} />
+                </div>
+                <p className="sm:text-lg">
+                  +91 94867 84878 <br /> (Dr. C. Parswajinan)
+                </p>
+              </div>
+              <div className="max-w-md flex  items-center gap-4 bg-slate-100 shadow-lg p-8 min-h-[30px] mb-8">
+                <div className=" text-sky-500">
+                  <PhoneIcon sx={{ fontSize: 32 }} />
+                </div>
+                <p className="sm:text-lg">
+                  +91 99448 81995 <br /> (Mr. A. Ravinthiran)
+                </p>
+              </div>
               <div className="max-w-md flex  items-center gap-4 bg-slate-100 shadow-lg p-8 min-h-[30px] mb-10">
                 <div className=" text-sky-500">
                   <EmailIcon sx={{ fontSize: 32 }} />
                 </div>
-                <p className="sm:text-lg">icetime@sairam.edu.in</p>
+                <p className="sm:text-lg">icimme@sairam.edu.in</p>
               </div>
               <div className="max-w-md flex flex-col items-center gap-4 bg-slate-100 shadow-lg p-8 min-h-[30px] ">
                 <div className="text-sky-500">
