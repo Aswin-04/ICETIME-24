@@ -538,27 +538,27 @@ export const organizingSecretaryProfiles = [
 export const importantDates = [
   {
     deadline: "Last date for submitting Abstract",
-    date: "22nd November 2024",
+    date: "30th November 2024",
     icon: DriveFolderUploadIcon,
   },
   {
     deadline: "Notification of acceptance of Abstract",
-    date: "27th November 2024",
+    date: "6th December 2024",
     icon: CheckCircleOutlineIcon,
   },
   {
     deadline: "Last date for submitting full length paper",
-    date: "10th December 2024",
+    date: "31st December 2024",
     icon: DescriptionIcon,
   },
   {
     deadline: "Notification of acceptance of full length paper",
-    date: "20th December 2024",
+    date: "5th January 2024",
     icon: CheckCircleOutlineIcon,
   },
   {
     deadline: "Last date for registration",
-    date: "6th January 2025",
+    date: "10th January 2025",
     icon: CreditCardIcon,
   },
 ];
