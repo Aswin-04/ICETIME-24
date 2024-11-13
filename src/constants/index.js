@@ -92,7 +92,7 @@ export const navItems = [
 
 export const aboutDetails = [
   {
-    id: 3,
+    id: 1,
     title: "About the Conference",
     content: `
   
@@ -108,7 +108,7 @@ export const aboutDetails = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "About the Institution",
     content: `
   **Sri Sai Ram Engineering College**, a BIS/EOMS ISO 21001:2018 certified Institution, was established by Founder MJF. Ln. Leo Muthu in 1995. The college is accredited by NAAC with an ‘A+’ grade, and all eligible Engineering programs are accredited by the National Board of Accreditation (NBA). Situated in a sylvan environment, the College offers sixteen UG courses and six PG courses in Engineering, Technology, and Management, serving a student body of over 6000.
@@ -122,7 +122,7 @@ export const aboutDetails = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "About the Department",
     content: `
   
@@ -138,7 +138,7 @@ export const aboutDetails = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "SEC Motorsports",
     img: secMotorSportsImg,
     imgAlt: "SecMotorsports img",
