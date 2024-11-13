@@ -9,7 +9,7 @@ import Registration from "./Registration";
 import ReviewProcess from "./ReviewProcess";
 import Speakers from "./Speakers";
 import TechnicalCommittee from "./TechnicalCommittee";
-import InstructionsToAuthors from "./InstructionsToAuthors"
+import InstructionsToAuthors from "./FullPaperSubmission"
 import AboutAIP from "./AboutAIP";
 import PublicationProcess from "./PublicationProcess";
 import AbstractSubmission from "./AbstractSubmission";
@@ -21,7 +21,7 @@ export {
   Contact,
   HomePage,
   ImportantDates,
-  InstructionsToAuthors,
+  FullPaperSubmission,
   OrganizingCommittee,
   ProgramSchedule,
   Registration,

@@ -45,7 +45,6 @@ export const navItems = [
         label: "Organizing Committee",
         href: "/committee/organizing-committee",
       },
-      // { label: "Technical Committee", href: "/committee/technical-committee" },
     ],
   },
   { label: "Speakers", href: "/speakers" },
@@ -58,11 +57,11 @@ export const navItems = [
         label: "Abstract Submission",
         href: "/for-authors/abstract-submission",
       },
-      { label: "Important Dates", href: "/for-authors/important-dates" },
       {
-        label: "Instructions to Authors",
-        href: "/for-authors/instructions-to-authors",
+        label: "Full Paper Submission",
+        href: "/for-authors/full-paper-submission",
       },
+      { label: "Important Dates", href: "/for-authors/important-dates" },
     ],
   },
   {
@@ -249,8 +248,8 @@ export const quickLinks = {
     { label: "Abstract Submission", href: "/for-authors/abstract-submission" },
     { label: "Important Dates", href: "/for-authors/important-dates" },
     {
-      label: "Instructions to Authors",
-      href: "/for-authors/instructions-to-authors",
+      label: "Full Paper Submission",
+      href: "/for-authors/full-paper-submission",
     },
     { label: "About AIP", href: "/publications/about-aip" },
     {
@@ -601,7 +600,7 @@ export const conferenceTracks = `
 
 `;
 
-export const instructionsToAuthors = `
+export const fullPaperSubmissionGuidelines = `
 - Papers submitted are not being previously published in any other forum.
 - All submitted papers will be scrutinized by an expert committee.
 - The authors of selected papers will be intimated through e-mail only.

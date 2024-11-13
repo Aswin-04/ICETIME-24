@@ -48,7 +48,7 @@ const routes = [
     element: <ImportantDates />,
   },
   {
-    path: "/for-authors/instructions-to-authors",
+    path: "/for-authors/full-paper-submission",
     element: <InstructionsToAuthors />,
   },
   {
