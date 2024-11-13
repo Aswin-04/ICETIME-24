@@ -25,6 +25,13 @@ const Registration = () => {
             <div className="text-2xl font-semibold text-center my-4">Registration Fee</div>
             <RegistrationFeeTable />
           </div>
+          <div className="my-20 flex justify-center">
+            <a href="https://forms.gle/DAn3YzsSMFwWhD6n9" target="_blank" rel="noopener noreferrer">
+              <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">
+                {"Register here ->"}
+              </button>
+            </a>
+          </div>
           <div className="text-2xl font-semibold text-center mb-10">
             Payments can be done via NEFT(Net Banking /Google Pay/ PhonePe)
           </div>
