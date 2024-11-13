@@ -266,6 +266,18 @@ export const quickLinks = {
 
 export const internationalAdvisoryCommittee = [
   {
+    name: "Dr. Elammaran Jayamani",
+    designation: "Swinburne University of Technology, Malaysia",
+  },
+  {
+    name: "Dr. E. O. Diemuodeke",
+    designation: "University of Port Harcourt Rivers State, Nigeria",
+  },
+  {
+    name: "Dr. Valliappan Raman",
+    designation: "Swinburne University of Technology, Malaysia",
+  },
+  {
     name: "Dr. Tariq Darabseh",
     designation: "Jordan University of Science and Technology",
   },
@@ -337,47 +349,59 @@ export const internationalAdvisoryCommittee = [
 ];
 
 export const nationalAdvisoryCommittee = [
-  { name: "Dr. Anand Goyal", designation: "Vice-Chancellor, A.P.Goyal Shimla University, Shimla" },
-  { name: "Dr. Atmananad", designation: "Director, National Institute of Ocean Technology, Chennai" },
-  { name: "Dr. Azad", designation: "Director, Centre for International Affairs, Anna University, Chennai" },
-  { name: "Prof. B.V. Babu", designation: "Vice Chancellor, Galgotia University, Noida" },
-  { name: "Dr. Dhanalakshmi V.", designation: "TCE, Madurai" },
-  { name: "Dr. Gajendran S.", designation: "Anna University, Chennai" },
-  { name: "Dr. Gobinath Chintala", designation: "Alliance University, Karnataka" },
-  { name: "Dr. Jayavel S.", designation: "IIITD & M, Kanchipuram" },
-  { name: "Dr. Jeyapaul R.", designation: "NIT, Trichy" },
-  { name: "Dr. Jose Mathew", designation: "NIT Calicut" },
-  { name: "Dr. A. Suresh Babu", designation: "Anna University, Chennai" },
-  { name: "Dr. M. Om Kumar", designation: "Anna University, Chennai" },
-  { name: "Dr. Kesavan R.", designation: "Anna University, Chennai" },
-  { name: "Dr. Lenin Babu", designation: "VIT, Chennai" },
-  { name: "Dr. Loganathan M.", designation: "Annamalai University, Chidambaram" },
-  { name: "Mr. V. Balajikrishna", designation: "Vice-President, Brakes India Pvt. Ltd., Chennai" },
-  { name: "Dr. K. Palanikuamr", designation: "Principal, Sri Sairam Institute of Technology, Chennai" },
-  { name: "Dr. Manoharan N.", designation: "Hindustan University, Chennai" },
-  { name: "Dr. Mohan B.", designation: "Anna University, Chennai" },
-  { name: "Dr. Sathyan Subbiah", designation: "IIT, Chennai" },
-  { name: "Dr. Murugan S.", designation: "NIT, Rourkela" },
-  { name: "Dr. Narendiran T.T.", designation: "IIT, Chennai" },
-  { name: "Dr. T. Sekar", designation: "GCT, Coimbatore" },
-  { name: "Dr. Prabakaran S.", designation: "Mepco, Sivakasi" },
-  { name: "Dr. Rajan T.P. D.", designation: "NIIST, Trivandrum" },
-  { name: "Dr. Rajaram", designation: "SRM University, Chennai" },
-  { name: "Dr. Rajesekaran S.", designation: "SRM University, Chennai" },
-  { name: "Dr. Rajesh R.", designation: "Rohini Engineering College, Kanyakumari" },
-  { name: "Dr. Senthil R.", designation: "Anna University, Villupuram" },
-  { name: "Dr. Senthilvelan S.", designation: "IIT, Guwahati" },
-  { name: "Dr. Senthilvelan T.", designation: "PEC, Pondicherry" },
-  { name: "Dr. Udaya Kumar M.", designation: "Amrita University, Kollam" },
-  { name: "Dr. S Kathiresan", designation: "Anna University, Chennai" },
-  { name: "Dr. Vijaya Raghavan L.", designation: "IIT, Chennai" },
-  { name: "Dr. Vijaya Kumar S.", designation: "Anna University, Chennai" },
-  { name: "Dr. Krishnakumar S.", designation: "Senior Officer, DRDO" },
-  { name: "Dr. J. Jayaprakash", designation: "Professor, MGR University" },
-  { name: "Dr. T. Jaya Kumar", designation: "Professor, AMET University, Chennai" },
-  { name: "Dr. Prakash", designation: "Professor, Sathyabama University, Chennai" }
+  {
+    name: "Dr. S. Somashekhar",
+    designation: "Professor, IIT Madras",
+  },
+  {
+    name: "Dr. M. C. Lenin Babu M C",
+    designation: "Professor, VIT, Chennai",
+  },
+  {
+    name: "Dr. R. Jeyapaul",
+    designation: "Professor, NIT Trichy",
+  },
+  {
+    name: "Dr. S. Vinodh",
+    designation: "Professor, NIT Trichy",
+  },
+  {
+    name: "Dr. K. Karunamurthy",
+    designation: "Professor, VIT Chennai",
+  },
+  {
+    name: "Dr. P. B. Jayaraj",
+    designation: "Professor, NIT Calicut",
+  },
+  {
+    name: "Dr. M. J. Davidson",
+    designation: "Professor, NIT Warangal",
+  },
+  {
+    name: "Dr. N. Arunachalam",
+    designation: "Professor, IIT Madras",
+  },
+  {
+    name: "Dr. M. Duraiselvam",
+    designation: "Professor, NIT Trichy",
+  },
+  {
+    name: "Dr. J. Jerald",
+    designation: "Associate Professor, NIT Trichy",
+  },
+  {
+    name: "Dr. Harpreet Singh",
+    designation: "Professor, IIT Ropar",
+  },
+  {
+    name: "Dr. R. Narayanan",
+    designation: "Professor, VIT Chennai",
+  },
+  {
+    name: "Dr. J. Ram Kumar",
+    designation: "Professor, IIT Kanpur",
+  },
 ];
-
 
 export const chiefPatronProfiles = [
   {
@@ -585,7 +609,6 @@ export const instructionsToAuthors = `
 - Presentations at the conference will be conducted **offline**.
 `;
 
-
 export const conferenceAgenda1 = [
   {
     timing: "09:00 AM",
@@ -699,7 +722,6 @@ export const registrationGuidelines = `
 - Registration details are provided below.
 - **Note:** Early registration is encouraged to confirm your participation and ensure timely processing of materials.
 `;
-
 
 export const abstractGuidelines = `
 ### Abstract Submission Guidelines
