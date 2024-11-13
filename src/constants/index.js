@@ -68,7 +68,7 @@ export const navItems = [
     label: "Publications",
     dropdown: true,
     items: [
-      { label: "About AIP", href: "/publications/about-aip" },
+      { label: "Journal Publication", href: "/publications/journal-publication" },
       {
         label: "Publication Process",
         href: "/publications/publication-process",
@@ -221,9 +221,17 @@ export const reviewProcess = {
   `,
 };
 
-export const aboutAIP = {
-  label: "About AIP Publishing",
-  content: `
+export const journalPublication = `
+### Journal Publication
+
+After a careful refereeing process as per the journal norms, selected papers will 
+be recommended for publication in the **AIP Conference Proceedings** (Waiting for 
+approval) which is indexed in **Scopus**.
+`;
+
+export const aboutAIP =  `
+
+  ### About AIP Publishing 
 
   A wholly owned not-for-profit subsidiary of the **American Institute of Physics (AIP)**, AIP Publishing’s mission is to advance, promote, and serve the physical sciences for the benefit of humanity by empowering researchers and breaking down barriers to open, equitable research communication. Our services, tools, and platforms connect researchers with publications, peers, institutions, and societies across the globe, expanding the reach and impact of their work.
 
@@ -234,8 +242,7 @@ export const aboutAIP = {
   ### AIP Conference Proceedings
 
   AIP Conference Proceedings contains over 100,000 articles published in over 1700 volumes. This substantial body of scientific literature is testament to our 40-year history as a world-class publishing partner, recognized internationally, and trusted by conference organizers worldwide.
-  `,
-};
+  `
 
 export const quickLinks = {
   title: "Quick Links",
@@ -251,7 +258,7 @@ export const quickLinks = {
       label: "Full Paper Submission",
       href: "/for-authors/full-paper-submission",
     },
-    { label: "About AIP", href: "/publications/about-aip" },
+    { label: "Journal Publication", href: "/publications/journal-publication" },
     {
       label: "Publication Process",
       href: "/publications/publication-process",

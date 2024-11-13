@@ -9,8 +9,8 @@ import Registration from "./Registration";
 import ReviewProcess from "./ReviewProcess";
 import Speakers from "./Speakers";
 import TechnicalCommittee from "./TechnicalCommittee";
-import InstructionsToAuthors from "./FullPaperSubmission"
-import AboutAIP from "./AboutAIP";
+import FullPaperSubmission from "./FullPaperSubmission"
+import JournalPublication from "./JournalPublication";
 import PublicationProcess from "./PublicationProcess";
 import AbstractSubmission from "./AbstractSubmission";
 
@@ -28,7 +28,7 @@ export {
   ReviewProcess,
   Speakers,
   TechnicalCommittee,
-  AboutAIP,
+  JournalPublication,
   PublicationProcess,
   AbstractSubmission,
 }

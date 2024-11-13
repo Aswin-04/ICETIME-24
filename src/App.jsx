@@ -6,16 +6,16 @@ import  {
   Contact,
   HomePage,
   ImportantDates,
-  InstructionsToAuthors,
   OrganizingCommittee,
   ProgramSchedule,
   Registration,
   ReviewProcess,
   Speakers,
   TechnicalCommittee,
-  AboutAIP,
+  JournalPublication,
   PublicationProcess,
-  AbstractSubmission
+  AbstractSubmission,
+  FullPaperSubmission
 } from './pages'
 
 const routes = [
@@ -49,7 +49,7 @@ const routes = [
   },
   {
     path: "/for-authors/full-paper-submission",
-    element: <InstructionsToAuthors />,
+    element: <FullPaperSubmission />,
   },
   {
     path: "/publications/review-process",
@@ -60,8 +60,8 @@ const routes = [
     element: <PublicationProcess />,
   },
   {
-    path: "/publications/about-aip",
-    element: <AboutAIP />,
+    path: "/publications/journal-publication",
+    element: <JournalPublication />,
   },
   {
     path: "/speakers",
