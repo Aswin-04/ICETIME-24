@@ -1,6 +1,6 @@
 const RegistrationFeeTable = () => {
   return (
-    <div className="overflow-x-auto">
+    <div className="w-full overflow-x-auto mx-2 md:flex md:justify-center">
       <table className="w-full md:max-w-3xl table-auto border-collapse border border-gray-300">
         <thead>
           <tr className="bg-gray-100">

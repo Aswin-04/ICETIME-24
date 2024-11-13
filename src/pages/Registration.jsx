@@ -22,7 +22,7 @@ const Registration = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center mb-20 gap-4">
-            <div className="font-bold text-xl">Registration Fee</div>
+            <div className="text-2xl font-semibold text-center my-4">Registration Fee</div>
             <RegistrationFeeTable />
           </div>
           <div className="text-2xl font-semibold text-center mb-10">
