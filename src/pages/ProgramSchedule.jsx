@@ -15,7 +15,7 @@ const ProgramSchedule = () => {
       </div>
 
       <h4 className='text-2xl font-bold text-center mb-2 '>DAY 1</h4>
-      <p className='text-2xl font-bold  text-center mb-8 font-montserrat'>28<sup>th</sup> January 2024</p>
+      <p className='text-2xl font-bold  text-center mb-8 font-montserrat'>29<sup>th</sup> January 2024</p>
       <section className="max-container px-8 mb-20 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {conferenceAgenda1.map((item, index) => (
           <div
@@ -32,7 +32,7 @@ const ProgramSchedule = () => {
       </section>
 
       <h4 className='text-2xl font-bold text-center mb-2'>DAY 2</h4>
-      <p className='text-2xl font-bold text-center mb-8 font-montserrat'>29<sup>th</sup> January 2024</p>
+      <p className='text-2xl font-bold text-center mb-8 font-montserrat'>30<sup>th</sup> January 2024</p>
       <section className="max-container px-8 mb-20 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {conferenceAgenda2.map((item, index) => (
           <div
