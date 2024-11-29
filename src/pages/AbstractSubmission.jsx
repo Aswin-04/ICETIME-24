@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import MainPoster from "../components/MainPoster";
 import Heading from "../components/Heading";
-import { abstractGuidelines } from "../constants";
+import { abstractGuidelines, academicEthics } from "../constants";
 
 const AbstractSubmission = () => {
   return (
@@ -16,6 +16,9 @@ const AbstractSubmission = () => {
       <div className="bg-slate-100">
         <div className="max-container mb-20 py-10 flex flex-col items-center ">
           <div className="px-8 prose prose-headings:text-center  text-black max-xs:text-sm max-xs:leading-6 text-lg">
+            <ReactMarkdown>{academicEthics}</ReactMarkdown>
+          </div>
+          <div className="mt-10 px-8 prose prose-headings:text-center  text-black max-xs:text-sm max-xs:leading-6 text-lg">
             <ReactMarkdown>{abstractGuidelines}</ReactMarkdown>
           </div>
           <div className="mt-10">

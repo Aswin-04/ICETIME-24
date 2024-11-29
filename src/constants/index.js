@@ -608,6 +608,8 @@ export const conferenceTracks = `
 `;
 
 export const fullPaperSubmissionGuidelines = `
+### Full Paper Submission Guidelines
+
 - Papers submitted are not being previously published in any other forum.
 - All submitted papers will be scrutinized by an expert committee.
 - The authors of selected papers will be intimated through e-mail only.
@@ -742,3 +744,13 @@ export const abstractGuidelines = `
 - Certificates of participation/presentation will be issued to the registered delegates/authors attending the conference.
 - **Click below** to submit your abstract.
 `;
+
+export const academicEthics = `
+### Academic Ethics
+
+- Any kind of self-plagiarism or plagiarism from the work(s) of others should be avoided in an article. If you use a model, concept, figure, table, data, or conclusive comment from a previously published work in your paper, you must properly **cite the source work**.
+- The paper, prior to submission, should be checked for plagiarism using **licensed plagiarism software**.
+- If you are using any copyrighted material, **prior permission** should be obtained from the copyright holder.
+- The **plagiarism content** should not exceed **15%**, and the **similarity content** should not exceed **5%**.
+`;
+
