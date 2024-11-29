@@ -5,13 +5,14 @@ import { aboutAIP, journalPublication } from "../constants"
 import Heading from "../components/Heading"
 import ReactMarkdown from "react-markdown"
 import { aipLogo } from "../assets/images"
+import UnderConstruction from "../components/UnderConstruction"
 
 const JournalPublication = () => {
   return (
     <div>
       <Navbar></Navbar>
       <MainPoster></MainPoster>
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <Heading title={"Journal Publication"}></Heading>
       </div>
       <div className="bg-slate-100">
@@ -26,6 +27,9 @@ const JournalPublication = () => {
             <ReactMarkdown>{aboutAIP}</ReactMarkdown>
           </div>
         </div>
+      </div> */}
+      <div>
+        <UnderConstruction/>
       </div>
       <Footer></Footer>
     </div>

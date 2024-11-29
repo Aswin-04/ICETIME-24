@@ -4,13 +4,14 @@ import MainPoster from "../components/MainPoster"
 import { publicationProcess } from "../constants"
 import Heading from "../components/Heading"
 import ReactMarkdown from "react-markdown"
+import UnderConstruction from "../components/UnderConstruction"
 
 const PublicationProcess = () => {
   return (
     <div>
       <Navbar></Navbar>
       <MainPoster></MainPoster>
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <Heading title={publicationProcess.label}></Heading>
       </div>
       <div className="bg-slate-100">
@@ -19,7 +20,8 @@ const PublicationProcess = () => {
             <ReactMarkdown>{publicationProcess.content}</ReactMarkdown>
           </div>
         </div>
-      </div>
+      </div> */}
+      <UnderConstruction/>
       <Footer></Footer>
     </div>
   )
