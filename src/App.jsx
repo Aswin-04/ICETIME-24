@@ -17,6 +17,7 @@ import  {
   AbstractSubmission,
   FullPaperSubmission
 } from './pages'
+import PublicationsTemp from "./pages/PublicationsTemp";
 
 const routes = [
   {
@@ -78,6 +79,10 @@ const routes = [
   {
     path: "/registration",
     element: <Registration />,
+  },
+  {
+    path: "/publications/",
+    element: <PublicationsTemp />,
   },
 ];
 

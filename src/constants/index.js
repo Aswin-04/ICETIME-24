@@ -64,17 +64,21 @@ export const navItems = [
       { label: "Important Dates", href: "/for-authors/important-dates" },
     ],
   },
+  // {
+  //   label: "Publications",
+  //   dropdown: true,
+  //   items: [
+  //     { label: "Journal Publication", href: "/publications/journal-publication" },
+  //     {
+  //       label: "Publication Process",
+  //       href: "/publications/publication-process",
+  //     },
+  //     { label: "Review Process", href: "/publications/review-process" },
+  //   ],
+  // },
   {
     label: "Publications",
-    dropdown: true,
-    items: [
-      { label: "Journal Publication", href: "/publications/journal-publication" },
-      {
-        label: "Publication Process",
-        href: "/publications/publication-process",
-      },
-      { label: "Review Process", href: "/publications/review-process" },
-    ],
+    href: "/publications"
   },
   { label: "Program Schedule", href: "/program-schedule" },
   { label: "Contact", href: "/contact" },
