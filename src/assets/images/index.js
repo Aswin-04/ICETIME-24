@@ -27,7 +27,7 @@ import rpImg from './staffs/rp.jpeg'
 
 import aipLogo from './publications/aip-logo.png'
 import etsLogo from './publications/ets-logo.jpeg'
-import springerLogo from './publications/springer-logo.svg'
+import springerLogo from './publications/springer-logo.jpeg'
 
 
 export {
