@@ -76,9 +76,21 @@ export const navItems = [
   //     { label: "Review Process", href: "/publications/review-process" },
   //   ],
   // },
-  {
+  // {
+  //   label: "Publications",
+  //   href: "/publications"
+  // },
+    {
     label: "Publications",
-    href: "/publications"
+    dropdown: true,
+    items: [
+      { label: "Journal Publication", href: "/publications/journal-publication" },
+      {
+        label: "Publication Process",
+        href: "/publications/publication-process",
+      },
+      { label: "Review Process", href: "/publications/review-process" },
+    ],
   },
   { label: "Program Schedule", href: "/program-schedule" },
   { label: "Contact", href: "/contact" },

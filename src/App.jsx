@@ -60,10 +60,10 @@ const routes = [
     path: "/publications/publication-process",
     element: <PublicationProcess />,
   },
-  {
-    path: "/publications/journal-publication",
-    element: <JournalPublication />,
-  },
+  // {
+  //   path: "/publications/journal-publication",
+  //   element: <JournalPublication />,
+  // },
   {
     path: "/speakers",
     element: <Speakers />,
@@ -81,7 +81,7 @@ const routes = [
     element: <Registration />,
   },
   {
-    path: "/publications/",
+    path: "/publications/journal-publication",
     element: <PublicationsTemp />,
   },
 ];
