@@ -11,7 +11,7 @@ const PublicationProcess = () => {
     <div>
       <Navbar></Navbar>
       <MainPoster></MainPoster>
-      {/* <div className="mt-10">
+      <div className="mt-10">
         <Heading title={publicationProcess.label}></Heading>
       </div>
       <div className="bg-slate-100">
@@ -20,8 +20,8 @@ const PublicationProcess = () => {
             <ReactMarkdown>{publicationProcess.content}</ReactMarkdown>
           </div>
         </div>
-      </div> */}
-      <UnderConstruction/>
+      </div>
+      {/* <UnderConstruction/> */}
       <Footer></Footer>
     </div>
   )

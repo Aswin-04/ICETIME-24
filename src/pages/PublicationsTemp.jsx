@@ -15,7 +15,7 @@ const PublicationsTemp = () => {
       <Navbar></Navbar>
       <MainPoster></MainPoster>
       <div className="mt-10">
-        <Heading title={"Publications"}></Heading>
+        <Heading title={"Journal Publication"}></Heading>
       </div>
       <div className="bg-slate-100">
         <div className="max-container mb-20 lg:mb-32 py-10 flex flex-col items-center gap-12 px-6">

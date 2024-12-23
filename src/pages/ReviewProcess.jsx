@@ -11,7 +11,7 @@ const ReviewProcess = () => {
     <div>
       <Navbar></Navbar>
       <MainPoster></MainPoster>
-      {/* <div className="mt-10">
+      <div className="mt-10">
         <Heading title={reviewProcess.label}></Heading>
       </div>
       <div className="bg-slate-100">
@@ -20,8 +20,8 @@ const ReviewProcess = () => {
             <ReactMarkdown>{reviewProcess.content}</ReactMarkdown>
           </div>
         </div>
-      </div> */}
-      <UnderConstruction/>
+      </div>
+      {/* <UnderConstruction/> */}
       <Footer></Footer>
     </div>
   )
