@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import MainPoster from "../components/MainPoster";
 import Heading from "../components/Heading";
 import { academicEthics, fullPaperSubmissionGuidelines } from "../constants";
+import rehypeRaw from 'rehype-raw';
 
 const FullPaperSubmission = () => {
   return (
@@ -19,7 +20,7 @@ const FullPaperSubmission = () => {
             <ReactMarkdown>{academicEthics}</ReactMarkdown>
           </div>
           <div className="mt-10 px-8 prose prose-headings:text-center  text-black max-xs:text-sm max-xs:leading-6 text-lg">
-            <ReactMarkdown>{fullPaperSubmissionGuidelines}</ReactMarkdown>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{fullPaperSubmissionGuidelines}</ReactMarkdown>
           </div>
           <div className="mt-10">
             <a

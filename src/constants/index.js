@@ -627,6 +627,7 @@ export const conferenceTracks = `
 export const fullPaperSubmissionGuidelines = `
 ### Full Paper Submission Guidelines
 
+- <a href="https://tinyurl.com/icimme25fullpapertemplate" target="_blank" rel="noopener noreferrer">**Click here**</a> to download the full paper template.
 - Papers submitted are not being previously published in any other forum.
 - All submitted papers will be scrutinized by an expert committee.
 - The authors of selected papers will be intimated through e-mail only.
