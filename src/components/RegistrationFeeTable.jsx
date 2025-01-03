@@ -18,22 +18,22 @@ const RegistrationFeeTable = () => {
         <tbody>
           <tr>
             <td className="border border-gray-300 px-4 py-2">Industry</td>
-            <td className="border border-gray-300 px-4 py-2">15000</td>
-            <td className="border border-gray-300 px-4 py-2">180</td>
+            <td className="border border-gray-300 px-4 py-2">12500</td>
+            <td className="border border-gray-300 px-4 py-2">145</td>
             <td className="border border-gray-300 px-4 py-2">3000</td>
             <td className="border border-gray-300 px-4 py-2">40</td>
           </tr>
           <tr>
             <td className="border border-gray-300 px-4 py-2">Govt./Academic/Research Institutions</td>
-            <td className="border border-gray-300 px-4 py-2">13500</td>
-            <td className="border border-gray-300 px-4 py-2">160</td>
+            <td className="border border-gray-300 px-4 py-2">11000</td>
+            <td className="border border-gray-300 px-4 py-2">130</td>
             <td className="border border-gray-300 px-4 py-2">1500</td>
             <td className="border border-gray-300 px-4 py-2">20</td>
           </tr>
           <tr>
             <td className="border border-gray-300 px-4 py-2">Students/Research Scholars</td>
-            <td className="border border-gray-300 px-4 py-2">13000</td>
-            <td className="border border-gray-300 px-4 py-2">155</td>
+            <td className="border border-gray-300 px-4 py-2">10500</td>
+            <td className="border border-gray-300 px-4 py-2">125</td>
             <td className="border border-gray-300 px-4 py-2">1000</td>
             <td className="border border-gray-300 px-4 py-2">12</td>
           </tr>
