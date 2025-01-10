@@ -624,17 +624,6 @@ export const conferenceTracks = `
 
 `;
 
-export const fullPaperSubmissionGuidelines = `
-### Full Paper Submission Guidelines
-
-- <a href="https://tinyurl.com/icimme25fullpapertemplate" target="_blank" rel="noopener noreferrer">**Click here**</a> to download the full paper template.
-- Papers submitted are not being previously published in any other forum.
-- All submitted papers will be scrutinized by an expert committee.
-- The authors of selected papers will be intimated through e-mail only.
-- Authors willing to present their paper at the conference should submit the full-length paper in **.doc** format (AIP format).
-- Presentations at the conference will be conducted **offline**.
-`;
-
 export const conferenceAgenda1 = [
   {
     timing: "09:00 AM",
@@ -770,5 +759,16 @@ export const academicEthics = `
 - The paper, prior to submission, should be checked for plagiarism using **licensed plagiarism software**.
 - If you are using any copyrighted material, **prior permission** should be obtained from the copyright holder.
 - The **plagiarism content** should not exceed **15%**, and the **similarity content** should not exceed **5%**.
+`;
+
+export const fullPaperSubmissionGuidelines = `
+### Full Paper Submission Guidelines
+
+- [**Click here**](/ICIMME25_Fullpaper_Template.docx) to download the full paper template.
+- Papers submitted are not being previously published in any other forum.
+- All submitted papers will be scrutinized by an expert committee.
+- The authors of selected papers will be intimated through e-mail only.
+- Authors willing to present their paper at the conference should submit the full-length paper in **.doc** format (AIP format).
+- Presentations at the conference will be conducted **offline**.
 `;
 
